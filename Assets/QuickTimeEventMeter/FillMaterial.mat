@@ -50,8 +50,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxValue: 0.8
-    - _MinValue: 0.2
+    - _MaxValue: 0.7
+    - _MinValue: 0.1
     - _minValue: 0.385
     m_Colors:
     - _FailColor: {r: 1, g: 0.32549015, b: 0.34731606, a: 1}

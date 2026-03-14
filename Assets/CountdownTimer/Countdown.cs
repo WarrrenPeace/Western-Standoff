@@ -1,0 +1,51 @@
+using System;
+using System.Runtime.Serialization;
+using TMPro;
+using UnityEngine;
+
+public class Countdown : MonoBehaviour
+{
+    public static event Action CountDownOver;
+    [SerializeField] TextMeshProUGUI TEXT;
+    private bool isFinishedCounting = false;
+    [SerializeField] float timeRemaining = 3;
+    float seconds;
+    void Update()
+    {
+        if(!isFinishedCounting)
+        {
+            TickDownClock();
+        }
+    }
+    void TickDownClock()
+    {
+        if (timeRemaining <= 0)
+        {
+            CountdownCompleted();
+        }
+        else
+        {   
+            DisplayTime();
+            timeRemaining -= 1 * Time.deltaTime;
+        }
+    }
+    void CountdownCompleted()
+    {
+        isFinishedCounting = true;
+        CountDownOver?.Invoke();
+        //gameObject.SetActive(false);
+    }
+
+    void DisplayTime()
+    {
+        if(timeRemaining > 1)
+        {
+            seconds = Mathf.FloorToInt(timeRemaining % 60);
+            TEXT.text = seconds.ToString() + "...";
+        }
+        else
+        {
+            TEXT.text = "SHOOT";
+        }
+    }
+}

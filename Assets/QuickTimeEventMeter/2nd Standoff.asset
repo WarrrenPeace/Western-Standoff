@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8778225755ab03b4e82574e43cc372e4, type: 3}
   m_Name: 2nd Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
-  speed: 0.3
-  min_Max_For_SafeZone: {x: 0.1, y: 0.7}
+  speed: 0.5
+  min_Max_For_SafeZone: {x: 0.5, y: 0.9}
