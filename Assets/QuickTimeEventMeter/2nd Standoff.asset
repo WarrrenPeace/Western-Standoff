@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 2nd Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
   speed: 0.3
-  min_Max_For_SafeZone: {x: 0.3, y: 0.8}
+  min_Max_For_SafeZone: {x: 0.1, y: 0.7}

@@ -10,6 +10,7 @@ public class QuickTimeEventMeter : MonoBehaviour
     public static event Action OnFailedHit; //Hit within red
 
     Slider eventMeter;
+    [SerializeField] Material eventMeterGraphicMaterial;
     bool isEventOver;
     [SerializeField] List<QuickTimeEventObject> eventSequenceOrder;
     [SerializeField] private int eventSequenceCount = 0;
@@ -20,6 +21,8 @@ public class QuickTimeEventMeter : MonoBehaviour
         eventMeter = GetComponent<Slider>();
         eventMeter.value = 0;
         eventSequenceCount = 0;
+
+        SetupEventMeterGraphic();
     }
 
     void Update()
@@ -29,6 +32,11 @@ public class QuickTimeEventMeter : MonoBehaviour
             TickUpMeter();
             CheckPlayerInput();
         }
+    }
+    void SetupEventMeterGraphic()
+    {
+        eventMeterGraphicMaterial.SetFloat("_MinValue",eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x);
+        eventMeterGraphicMaterial.SetFloat("_MaxValue",eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y);
     }
     void CheckPlayerInput()
     {
@@ -91,6 +99,7 @@ public class QuickTimeEventMeter : MonoBehaviour
         if(eventSequenceCount + 1 < eventSequenceOrder.Count)
         {
             eventSequenceCount ++;
+            SetupEventMeterGraphic();
         }
         else if (eventSequenceCount + 1 >= eventSequenceOrder.Count)
         {
