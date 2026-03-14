@@ -6,10 +6,12 @@ using UnityEngine;
 public class Countdown : MonoBehaviour
 {
     public static event Action CountDownOver;
+    public static event Action CountDownAlmostOver;
     [SerializeField] TextMeshProUGUI TEXT;
     private bool isFinishedCounting = false;
     [SerializeField] float timeRemaining = 3;
     float seconds;
+    bool IsLastSecond = false;
 
     void OnEnable()
     {
@@ -37,6 +39,12 @@ public class Countdown : MonoBehaviour
             DisplayTime();
             timeRemaining -= 1 * Time.deltaTime;
         }
+
+        if (timeRemaining <= 1 && !IsLastSecond)
+        {
+            IsLastSecond = true;
+            Debug.Log("This should call once");  CountDownAlmostOver.Invoke();
+        }
     }
     void CountdownCompleted()
     {
@@ -55,6 +63,7 @@ public class Countdown : MonoBehaviour
         else
         {
             TEXT.text = "Ready...";
+            
         }
     }
 
@@ -62,5 +71,7 @@ public class Countdown : MonoBehaviour
     {
         isFinishedCounting = false;
         timeRemaining = 4;
+
+        IsLastSecond = false;
     }
 }

@@ -117,7 +117,7 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
         {
             eventSequenceCount ++;
         }
-        else if (eventSequenceCount + 1 >= eventSequenceOrder.Count)
+        else if (eventSequenceCount + 1 >= eventSequenceOrder.Count) //This would be the end of the game
         {
             Debug.Log("REACHED END");
             ResetEventSequence();

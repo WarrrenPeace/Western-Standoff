@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: 8213a9f2b9f8d10498b7cd4c4ba28cd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8509721502248841679
+    second: ReadyGun_Sheet_0
+  - first:
+      213: -4206109549040629340
+    second: ReadyGun_Sheet_1
+  - first:
+      213: -4956605313618836938
+    second: ReadyGun_Sheet_2
+  - first:
+      213: 8481377353748451837
+    second: ReadyGun_Sheet_3
+  - first:
+      213: -8550692183199433870
+    second: ReadyGun_Sheet_4
+  - first:
+      213: -4050150142416332450
+    second: ReadyGun_Sheet_5
+  - first:
+      213: -3517219397555142790
+    second: ReadyGun_Sheet_6
+  - first:
+      213: 4370313652606837046
+    second: ReadyGun_Sheet_7
+  - first:
+      213: -665527030334257275
+    second: ReadyGun_Sheet_8
+  - first:
+      213: -365194280699346320
+    second: ReadyGun_Sheet_9
+  - first:
+      213: -1952837306436015023
+    second: ReadyGun_Sheet_10
+  - first:
+      213: 2243632362355279851
+    second: ReadyGun_Sheet_11
+  - first:
+      213: -7323918226171749003
+    second: ReadyGun_Sheet_12
+  - first:
+      213: 5005886055900102477
+    second: ReadyGun_Sheet_13
+  - first:
+      213: 5466422508294267254
+    second: ReadyGun_Sheet_14
+  - first:
+      213: 4978881735483137099
+    second: ReadyGun_Sheet_15
+  - first:
+      213: -2170532458951337432
+    second: ReadyGun_Sheet_16
+  - first:
+      213: -477167275994275545
+    second: ReadyGun_Sheet_17
+  - first:
+      213: 7597480605871189232
+    second: ReadyGun_Sheet_18
+  - first:
+      213: 1030021084160167380
+    second: ReadyGun_Sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1bb0fae9a981670800000000000000
+      internalID: 8509721502248841679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a90e0b66a5e0a5c0800000000000000
+      internalID: -4206109549040629340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6328fed7ab9963bb0800000000000000
+      internalID: -4956605313618836938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1183854c7e3b570800000000000000
+      internalID: 8481377353748451837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b30bc43c6d55980800000000000000
+      internalID: -8550692183199433870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59d64277e9fac7c0800000000000000
+      internalID: -4050150142416332450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fbc9bc793503fc0800000000000000
+      internalID: -3517219397555142790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631aba4bc1976ac30800000000000000
+      internalID: 4370313652606837046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587818821b293c6f0800000000000000
+      internalID: -665527030334257275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07249e09cb19eeaf0800000000000000
+      internalID: -365194280699346320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c20cdf0d026e4e0800000000000000
+      internalID: -1952837306436015023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7c1cc0fbbf22f10800000000000000
+      internalID: 2243632362355279851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d16055d273c5a90800000000000000
+      internalID: -7323918226171749003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fb10478da787540800000000000000
+      internalID: 5005886055900102477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67164171f42acdb40800000000000000
+      internalID: 5466422508294267254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c17262f8a881540800000000000000
+      internalID: 4978881735483137099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a10c28a38b0e1e0800000000000000
+      internalID: -2170532458951337432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721abeff3e2c069f0800000000000000
+      internalID: -477167275994275545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc2fdc9b5caf6960800000000000000
+      internalID: 7597480605871189232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd878008be5b4e00800000000000000
+      internalID: 1030021084160167380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a5f43e46a5a394ba80890ace176ef7
+      internalID: 966029341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c314646b9e182341942bbc7f3c4dcfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":135.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ReadyGun_Sheet_0: 8509721502248841679
+      ReadyGun_Sheet_1: -4206109549040629340
+      ReadyGun_Sheet_10: -1952837306436015023
+      ReadyGun_Sheet_11: 2243632362355279851
+      ReadyGun_Sheet_12: -7323918226171749003
+      ReadyGun_Sheet_13: 5005886055900102477
+      ReadyGun_Sheet_14: 5466422508294267254
+      ReadyGun_Sheet_15: 4978881735483137099
+      ReadyGun_Sheet_16: -2170532458951337432
+      ReadyGun_Sheet_17: -477167275994275545
+      ReadyGun_Sheet_18: 7597480605871189232
+      ReadyGun_Sheet_19: 1030021084160167380
+      ReadyGun_Sheet_2: -4956605313618836938
+      ReadyGun_Sheet_20: 966029341
+      ReadyGun_Sheet_3: 8481377353748451837
+      ReadyGun_Sheet_4: -8550692183199433870
+      ReadyGun_Sheet_5: -4050150142416332450
+      ReadyGun_Sheet_6: -3517219397555142790
+      ReadyGun_Sheet_7: 4370313652606837046
+      ReadyGun_Sheet_8: -665527030334257275
+      ReadyGun_Sheet_9: -365194280699346320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

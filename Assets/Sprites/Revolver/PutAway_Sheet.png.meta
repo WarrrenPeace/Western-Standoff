@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: 70315670a7dd7b24485413b29f01fd41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8043108052827115417
+    second: PutAway_Sheet_0
+  - first:
+      213: -3391211312280691997
+    second: PutAway_Sheet_1
+  - first:
+      213: -6194612806799407600
+    second: PutAway_Sheet_2
+  - first:
+      213: 3551892051707255998
+    second: PutAway_Sheet_3
+  - first:
+      213: 4124505531499685030
+    second: PutAway_Sheet_4
+  - first:
+      213: -1017699305940740951
+    second: PutAway_Sheet_5
+  - first:
+      213: -3570942841432586664
+    second: PutAway_Sheet_6
+  - first:
+      213: 3203579638639418590
+    second: PutAway_Sheet_7
+  - first:
+      213: 556576525987296888
+    second: PutAway_Sheet_8
+  - first:
+      213: -3627028883010885625
+    second: PutAway_Sheet_9
+  - first:
+      213: 7371109156017226630
+    second: PutAway_Sheet_10
+  - first:
+      213: 3693760475033981065
+    second: PutAway_Sheet_11
+  - first:
+      213: -994022419192735319
+    second: PutAway_Sheet_12
+  - first:
+      213: -6325703316474746196
+    second: PutAway_Sheet_13
+  - first:
+      213: 7955224770376180107
+    second: PutAway_Sheet_14
+  - first:
+      213: -2031193598150353317
+    second: PutAway_Sheet_15
+  - first:
+      213: -732629929798823086
+    second: PutAway_Sheet_16
+  - first:
+      213: 5373915159276278671
+    second: PutAway_Sheet_17
+  - first:
+      213: -5927907514806347325
+    second: PutAway_Sheet_18
+  - first:
+      213: 6795943015426487181
+    second: PutAway_Sheet_19
+  - first:
+      213: 4946336126537933774
+    second: PutAway_Sheet_20
+  - first:
+      213: 2218589488306741331
+    second: PutAway_Sheet_21
+  - first:
+      213: -1932237190240128010
+    second: PutAway_Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PutAway_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760f72517d3216090800000000000000
+      internalID: -8043108052827115417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea1935674fffe0d0800000000000000
+      internalID: -3391211312280691997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016c2a10970580aa0800000000000000
+      internalID: -6194612806799407600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc5b86900bda4130800000000000000
+      internalID: 3551892051707255998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 360
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a42c27adef2d3930800000000000000
+      internalID: 4124505531499685030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a49d3d8fd760e1f0800000000000000
+      internalID: -1017699305940740951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856cf27c766717ec0800000000000000
+      internalID: -3570942841432586664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcd6c245b6657c20800000000000000
+      internalID: 3203579638639418590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763bc9c66b59b700800000000000000
+      internalID: 556576525987296888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 270
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708ed0e92743aadc0800000000000000
+      internalID: -3627028883010885625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683490d39b07b4660800000000000000
+      internalID: 7371109156017226630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98057c7e49fd24330800000000000000
+      internalID: 3693760475033981065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a91e3550e58432f0800000000000000
+      internalID: -994022419192735319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa230349569638a0800000000000000
+      internalID: -6325703316474746196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 180
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8129a2b7c2a66e60800000000000000
+      internalID: 7955224770376180107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e53382f20cfc3e0800000000000000
+      internalID: -2031193598150353317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2539582e5fc25d5f0800000000000000
+      internalID: -732629929798823086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83dfb97d5bf39a40800000000000000
+      internalID: 5373915159276278671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9599ec587dbbda0800000000000000
+      internalID: -5927907514806347325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 90
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83fa448a2a005e50800000000000000
+      internalID: 6795943015426487181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3a9f1108ae4a440800000000000000
+      internalID: 4946336126537933774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35060f092630ace10800000000000000
+      internalID: 2218589488306741331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f330fd43805f25e0800000000000000
+      internalID: -1932237190240128010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutAway_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74617cd5a4c777a429142d1e32c070f8
+      internalID: 1870995296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 84b6f0f0225c47b4a9da240a9d77bfc8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":135.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PutAway_Sheet_0: -8043108052827115417
+      PutAway_Sheet_1: -3391211312280691997
+      PutAway_Sheet_10: 7371109156017226630
+      PutAway_Sheet_11: 3693760475033981065
+      PutAway_Sheet_12: -994022419192735319
+      PutAway_Sheet_13: -6325703316474746196
+      PutAway_Sheet_14: 7955224770376180107
+      PutAway_Sheet_15: -2031193598150353317
+      PutAway_Sheet_16: -732629929798823086
+      PutAway_Sheet_17: 5373915159276278671
+      PutAway_Sheet_18: -5927907514806347325
+      PutAway_Sheet_19: 6795943015426487181
+      PutAway_Sheet_2: -6194612806799407600
+      PutAway_Sheet_20: 4946336126537933774
+      PutAway_Sheet_21: 2218589488306741331
+      PutAway_Sheet_22: -1932237190240128010
+      PutAway_Sheet_23: 1870995296
+      PutAway_Sheet_3: 3551892051707255998
+      PutAway_Sheet_4: 4124505531499685030
+      PutAway_Sheet_5: -1017699305940740951
+      PutAway_Sheet_6: -3570942841432586664
+      PutAway_Sheet_7: 3203579638639418590
+      PutAway_Sheet_8: 556576525987296888
+      PutAway_Sheet_9: -3627028883010885625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

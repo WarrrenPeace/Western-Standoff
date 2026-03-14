@@ -1,0 +1,37 @@
+using UnityEngine;
+
+public class RevolverListener : MonoBehaviour
+{
+    Animator AM;
+    void OnEnable()
+    {
+        Countdown.CountDownAlmostOver += ReadyGun;
+        QuickTimeEventMeter.OnSuccessfulHit += FireGun;
+        
+    }
+    void OnDisable()
+    {
+        Countdown.CountDownAlmostOver -= ReadyGun;
+        QuickTimeEventMeter.OnSuccessfulHit -= FireGun;
+    }
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        AM = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void ReadyGun()
+    {
+        AM.SetTrigger("Ready");
+    }
+    void FireGun()
+    {
+        AM.SetTrigger("Shoot");
+        Invoke("PutAwayGun",0.75f); //Temporary
+    }
+    void PutAwayGun()
+    {
+        AM.SetTrigger("PutAway");
+    }
+}
