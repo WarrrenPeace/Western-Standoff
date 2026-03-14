@@ -4,5 +4,5 @@ using UnityEngine;
 public class QuickTimeEventObject : ScriptableObject
 {
     public float speed; //1 is really fast LMAO
-    public Vector2 minMaxOfSafeZOne; //Min in max of safezone
+    public Vector2 min_Max_For_SafeZone; //Min in max of safezone
 }

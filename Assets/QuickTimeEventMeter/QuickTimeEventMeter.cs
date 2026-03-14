@@ -11,13 +11,14 @@ public class QuickTimeEventMeter : MonoBehaviour
 
     Slider eventMeter;
     bool isEventOver;
-    [SerializeField] List<QuickTimeEventObject> eventSequence;
+    [SerializeField] List<QuickTimeEventObject> eventSequenceOrder;
     [SerializeField] private int eventSequenceCount = 0;
 
 
     void Start()
     {
         eventMeter = GetComponent<Slider>();
+        eventMeter.value = 0;
         eventSequenceCount = 0;
     }
 
@@ -36,14 +37,21 @@ public class QuickTimeEventMeter : MonoBehaviour
             isEventOver = true;
             Debug.Log(eventMeter.value);
             //Calculate where quicktime event meter is
-
-
-            ResetEventMeter();
+            if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)
+            { //PASSED
+                Debug.Log("SUCCESS");
+                ResetEventMeter();
+            }
+            else
+            { //FAILED
+                Debug.Log("FAILED");
+                
+            }
         }
     }
     void TickUpMeter()
     {
-        eventMeter.value += eventSequence[eventSequenceCount].speed * Time.deltaTime;
+        eventMeter.value += eventSequenceOrder[eventSequenceCount].speed * Time.deltaTime;
         if (eventMeter.value >= eventMeter.maxValue)
         {
             EventHasReachedMaxValue();
@@ -67,22 +75,27 @@ public class QuickTimeEventMeter : MonoBehaviour
         isEventOver = true;
         OnFailedHit.Invoke();
     }
-    public void ResetEventMeter()
+    public void ResetEventMeter() //Call this to reset the meter for the NEXT QT event
     {
-        SetUpNextInSequence();
         eventMeter.value = 0;
         isEventOver = false;
         enabled = false;
+        SetUpNextInSequence();
+    }
+    public void ResetEventSequence() //Call this to reset the chain of QT events
+    {
+        eventSequenceCount = 0; //BROKE UNITY BY FLIPPING THESE LMAOOOOO
     }
     void SetUpNextInSequence()
     {
-        if(eventSequence.Count + eventSequenceCount < eventSequence.Count)
+        if(eventSequenceCount + 1 < eventSequenceOrder.Count)
         {
-            eventSequenceCount++;
+            eventSequenceCount ++;
         }
-        else
+        else if (eventSequenceCount + 1 >= eventSequenceOrder.Count)
         {
             Debug.Log("REACHED END");
+            ResetEventSequence();
         }
     }
 }
