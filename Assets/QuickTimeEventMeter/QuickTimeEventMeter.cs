@@ -3,35 +3,59 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuickTimeEventMeter : MonoBehaviour
 {
+    public static QuickTimeEventMeter instance;
     public static event Action OnSuccessfulHit; //Hit within green
     public static event Action OnFailedHit; //Hit within red
 
     Slider eventMeter;
     [SerializeField] Material eventMeterGraphicMaterial;
-    bool isEventOver;
-    [SerializeField] List<QuickTimeEventObject> eventSequenceOrder;
-    [SerializeField] private int eventSequenceCount = 0;
-
+    [SerializeField] Image eventMeterGraphic;
+    bool isEventHappening = false;
+    public List<QuickTimeEventObject> eventSequenceOrder;
+    public int eventSequenceCount = 0;
+    void Awake()
+    {
+        instance = this;
+    }
+    void OnEnable()
+    {
+        Countdown.CountDownOver += StartQuickTimeEvent;
+    }
+    void OnDisable()
+    {
+        Countdown.CountDownOver -= StartQuickTimeEvent;
+    }
 
     void Start()
     {
         eventMeter = GetComponent<Slider>();
         eventMeter.value = 0;
         eventSequenceCount = 0;
+    }
+    void StartQuickTimeEvent()
+    {
+        eventMeter.value = 0;
 
+        eventMeterGraphic.enabled = true;
         SetupEventMeterGraphic();
+        isEventHappening = true;
     }
 
     void Update()
     {
-        if(!isEventOver)
+        if(isEventHappening)
         {
             TickUpMeter();
             CheckPlayerInput();
         }
+if(Keyboard.current.tabKey.isPressed) //DEBUG
+{
+    SceneManager.LoadScene(0);
+}
     }
     void SetupEventMeterGraphic()
     {
@@ -42,18 +66,18 @@ public class QuickTimeEventMeter : MonoBehaviour
     {
         if(Keyboard.current.spaceKey.isPressed)
         {
-            isEventOver = true;
+            isEventHappening = false;
+            eventMeterGraphic.enabled = false;
             Debug.Log(eventMeter.value);
             //Calculate where quicktime event meter is
             if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)
             { //PASSED
-                Debug.Log("SUCCESS");
-                ResetEventMeter();
+                //ResetEventMeter();
+                PlayerHitSafeZone();
             }
             else
             { //FAILED
-                Debug.Log("FAILED");
-                
+                PlayerHitRedZone();
             }
         }
     }
@@ -62,44 +86,38 @@ public class QuickTimeEventMeter : MonoBehaviour
         eventMeter.value += eventSequenceOrder[eventSequenceCount].speed * Time.deltaTime;
         if (eventMeter.value >= eventMeter.maxValue)
         {
-            EventHasReachedMaxValue();
+            EventHasReachedMaxValue(); //End automatically
         }
     }
     void EventHasReachedMaxValue()
     {
-        Debug.Log("OVER");
-        isEventOver = true;
-        OnFailedHit.Invoke();
+        Debug.Log("TOO SLOW");
+        isEventHappening = false;
+        OnFailedHit.Invoke(); //Trigger death
     }
     void PlayerHitSafeZone()
     {
-        Debug.Log("WON");
-        isEventOver = true;
-        OnSuccessfulHit.Invoke();
+        Debug.Log("SUCCESS");
+        isEventHappening = false;
+        OnSuccessfulHit.Invoke(); //Trigger next cutscene before next event
+
+        SetUpNextInSequence();
     }
     void PlayerHitRedZone()
     {
-        Debug.Log("LOST");
-        isEventOver = true;
-        OnFailedHit.Invoke();
-    }
-    public void ResetEventMeter() //Call this to reset the meter for the NEXT QT event
-    {
-        eventMeter.value = 0;
-        isEventOver = false;
-        enabled = false;
-        SetUpNextInSequence();
+        Debug.Log("FAIL");
+        isEventHappening = false;
+        OnFailedHit.Invoke(); //Trigger death
     }
     public void ResetEventSequence() //Call this to reset the chain of QT events
     {
-        eventSequenceCount = 0; //BROKE UNITY BY FLIPPING THESE LMAOOOOO
+        eventSequenceCount = 0;
     }
     void SetUpNextInSequence()
     {
         if(eventSequenceCount + 1 < eventSequenceOrder.Count)
         {
             eventSequenceCount ++;
-            SetupEventMeterGraphic();
         }
         else if (eventSequenceCount + 1 >= eventSequenceOrder.Count)
         {

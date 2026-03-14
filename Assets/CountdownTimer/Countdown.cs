@@ -10,6 +10,15 @@ public class Countdown : MonoBehaviour
     private bool isFinishedCounting = false;
     [SerializeField] float timeRemaining = 3;
     float seconds;
+
+    void OnEnable()
+    {
+        QuickTimeEventMeter.OnSuccessfulHit += RestartClock;
+    }
+    void OnDisable()
+    {
+        QuickTimeEventMeter.OnSuccessfulHit -= RestartClock;
+    }
     void Update()
     {
         if(!isFinishedCounting)
@@ -32,20 +41,26 @@ public class Countdown : MonoBehaviour
     void CountdownCompleted()
     {
         isFinishedCounting = true;
+        TEXT.text = "SHOOT";
         CountDownOver?.Invoke();
-        //gameObject.SetActive(false);
     }
 
     void DisplayTime()
     {
-        if(timeRemaining > 1)
+        if(timeRemaining >= 1)
         {
             seconds = Mathf.FloorToInt(timeRemaining % 60);
             TEXT.text = seconds.ToString() + "...";
         }
         else
         {
-            TEXT.text = "SHOOT";
+            TEXT.text = "Ready...";
         }
+    }
+
+    void RestartClock()
+    {
+        isFinishedCounting = false;
+        timeRemaining = 4;
     }
 }

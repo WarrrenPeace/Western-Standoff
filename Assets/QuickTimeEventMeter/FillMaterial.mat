@@ -50,11 +50,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxValue: 0.7
-    - _MinValue: 0.1
+    - _MaxValue: 1
+    - _MinValue: 0.5
     - _minValue: 0.385
     m_Colors:
-    - _FailColor: {r: 1, g: 0.32549015, b: 0.34731606, a: 1}
+    - _FailColor: {r: 1, g: 0.32549024, b: 0.37633115, a: 1}
     - _SafeColor: {r: 0.32547167, g: 1, b: 0.6974403, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
