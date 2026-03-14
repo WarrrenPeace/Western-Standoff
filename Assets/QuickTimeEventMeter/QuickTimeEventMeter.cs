@@ -14,6 +14,7 @@ public class QuickTimeEventMeter : MonoBehaviour
     Slider eventMeter;
     [SerializeField] Material eventMeterGraphicMaterial;
     [SerializeField] Image eventMeterGraphic;
+    [SerializeField] Image eventMeterPointer;
     bool isEventHappening = false;
     public List<QuickTimeEventObject> eventSequenceOrder;
     public int eventSequenceCount = 0;
@@ -41,6 +42,7 @@ public class QuickTimeEventMeter : MonoBehaviour
         eventMeter.value = 0;
 
         eventMeterGraphic.enabled = true;
+        eventMeterPointer.enabled = true;
         SetupEventMeterGraphic();
         isEventHappening = true;
     }
@@ -68,11 +70,10 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
         {
             isEventHappening = false;
             eventMeterGraphic.enabled = false;
-            Debug.Log(eventMeter.value);
+            eventMeterPointer.enabled = false;
             //Calculate where quicktime event meter is
             if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)
             { //PASSED
-                //ResetEventMeter();
                 PlayerHitSafeZone();
             }
             else
@@ -91,13 +92,11 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
     }
     void EventHasReachedMaxValue()
     {
-        Debug.Log("TOO SLOW");
         isEventHappening = false;
         OnFailedHit.Invoke(); //Trigger death
     }
     void PlayerHitSafeZone()
     {
-        Debug.Log("SUCCESS");
         isEventHappening = false;
         OnSuccessfulHit.Invoke(); //Trigger next cutscene before next event
 
@@ -105,7 +104,6 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
     }
     void PlayerHitRedZone()
     {
-        Debug.Log("FAIL");
         isEventHappening = false;
         OnFailedHit.Invoke(); //Trigger death
     }
