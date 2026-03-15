@@ -11,8 +11,9 @@ public class QuickTimeEventMeter : MonoBehaviour
     public static event Action OnSuccessfulHit; //Hit within green
     public static event Action OnFailedHit; //Hit within red
 
+    public bool finalInSequenceReached; //The very last standoff
     public static event Action OnSequenceCompleted; //Hit every safezone in all events
-    bool SequenceCompleted = false;
+    public bool SequenceCompleted = false; //Should be public method that asks but i wont touch this
 
     Slider eventMeter;
     [SerializeField] Material eventMeterGraphicMaterial;
@@ -60,10 +61,6 @@ public class QuickTimeEventMeter : MonoBehaviour
             TickUpMeter();
             CheckPlayerInput();
         }
-if(Keyboard.current.tabKey.isPressed) //DEBUG
-{
-    SceneManager.LoadScene(0);
-}
     }
     void SetupEventMeterGraphic()
     {
@@ -77,8 +74,9 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
             isEventHappening = false;
             eventMeterGraphic.SetActive(false);
             eventMeterPointer.enabled = false;
+
             //Calculate where quicktime event meter is
-            if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)
+            if(CheckIfPlayerHitWithinSafeZone())
             { //PASSED
                 PlayerHitSafeZone();
             }
@@ -86,6 +84,17 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
             { //FAILED
                 PlayerHitRedZone();
             }
+        }
+    }
+    bool CheckIfPlayerHitWithinSafeZone()
+    {
+        if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
     void TickUpMeter()
@@ -99,14 +108,25 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
     void EventHasReachedMaxValue()
     {
         isEventHappening = false;
-        OnFailedHit.Invoke(); //Trigger death
+        eventMeterGraphic.SetActive(false);
+        eventMeterPointer.enabled = false;
+
+        if(finalInSequenceReached)
+        {
+            PlayerHitRedZone();
+        }
+        else
+        {
+            PlayerHitRedZone();
+        }
+        
+        
     }
     void PlayerHitSafeZone()
     {
         isEventHappening = false;
-        OnSuccessfulHit.Invoke(); //Trigger next cutscene before next event
-
-        SetUpNextInSequence();
+        SetUpNextInSequence(); //Need to set up next sequence before calling event so i can use the proper 'QuickTimeEventObject'
+        OnSuccessfulHit.Invoke();
     }
     void PlayerHitRedZone()
     {
@@ -117,18 +137,31 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
     {
         eventSequenceCount = 0;
     }
-    void SetUpNextInSequence()
+    void SetUpNextInSequence() //ENtering with 3
     {
-        if(eventSequenceCount + 1 < eventSequenceOrder.Count)
+        if(eventSequenceCount + 1 < eventSequenceOrder.Count) //Loop standoff
         {
             eventSequenceCount ++;
+            if(eventSequenceCount == eventSequenceOrder.Count - 1) //This would be the LAST standoff
+            {
+                LastInSequenceReached();
+            }
         }
-        else if (eventSequenceCount + 1 >= eventSequenceOrder.Count) //This would be the end of the game
+        else //4+1 is 5 so neither condition is satisfied
         {
-            LastInSequenceReached();
-        }
+            eventSequenceCount ++;
+            if(eventSequenceCount == eventSequenceOrder.Count)
+            {
+                LastInSequenceCompleted();
+            }
+        } 
+
     }
     void LastInSequenceReached()
+    {
+        finalInSequenceReached = true;
+    }
+    void LastInSequenceCompleted()
     {
         SequenceCompleted = true;
         OnSequenceCompleted.Invoke();

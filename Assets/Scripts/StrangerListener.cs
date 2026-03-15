@@ -8,6 +8,7 @@ public class StrangerListener : MonoBehaviour
         Countdown.CountDownAlmostOver += StrangerReadyGun;
         QuickTimeEventMeter.OnSuccessfulHit += StrangerDeath;
         QuickTimeEventMeter.OnFailedHit += StrangerFireGun;
+        GameStateManager.OnStartNextStandoff += StrangerReset;
         
     }
     void OnDisable()
@@ -15,6 +16,7 @@ public class StrangerListener : MonoBehaviour
         Countdown.CountDownAlmostOver -= StrangerReadyGun;
         QuickTimeEventMeter.OnSuccessfulHit -= StrangerDeath;
         QuickTimeEventMeter.OnFailedHit -= StrangerFireGun;
+        GameStateManager.OnStartNextStandoff -= StrangerReset;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -51,7 +51,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _MaxValue: 1
-    - _MinValue: 0.5
+    - _MinValue: 0
     - _minValue: 0.385
     m_Colors:
     - _FailColor: {r: 1, g: 0.32549024, b: 0.37633115, a: 1}

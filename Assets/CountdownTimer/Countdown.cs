@@ -15,11 +15,11 @@ public class Countdown : MonoBehaviour
 
     void OnEnable()
     {
-        //QuickTimeEventMeter.OnSuccessfulHit += RestartClock;
+        GameStateManager.OnStartNextStandoff += RestartClock;
     }
     void OnDisable()
     {
-        //QuickTimeEventMeter.OnSuccessfulHit -= RestartClock;
+        GameStateManager.OnStartNextStandoff -= RestartClock;
     }
     void Update()
     {

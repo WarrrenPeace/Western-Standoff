@@ -474,7 +474,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -496,7 +496,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -518,7 +518,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -540,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 810
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -562,7 +562,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1080
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -584,7 +584,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1350
-        y: 1800
+        y: 720
         width: 270
         height: 180
       alignment: 0
@@ -605,8 +605,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_6
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 1800
+        x: 0
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -627,8 +627,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_7
       rect:
         serializedVersion: 2
-        x: 1890
-        y: 1800
+        x: 270
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -649,8 +649,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_8
       rect:
         serializedVersion: 2
-        x: 2160
-        y: 1800
+        x: 540
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -671,8 +671,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_9
       rect:
         serializedVersion: 2
-        x: 2430
-        y: 1800
+        x: 810
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -693,8 +693,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_10
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 1800
+        x: 1080
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -715,8 +715,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1620
+        x: 1350
+        y: 540
         width: 270
         height: 180
       alignment: 0
@@ -737,8 +737,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_12
       rect:
         serializedVersion: 2
-        x: 270
-        y: 1620
+        x: 0
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -759,8 +759,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_13
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1620
+        x: 270
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -781,8 +781,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_14
       rect:
         serializedVersion: 2
-        x: 810
-        y: 1620
+        x: 540
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -803,8 +803,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_15
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 1620
+        x: 810
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -825,8 +825,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_16
       rect:
         serializedVersion: 2
-        x: 1350
-        y: 1620
+        x: 1080
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -847,8 +847,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_17
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 1620
+        x: 1350
+        y: 360
         width: 270
         height: 180
       alignment: 0
@@ -869,8 +869,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_18
       rect:
         serializedVersion: 2
-        x: 1890
-        y: 1620
+        x: 0
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -891,8 +891,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_19
       rect:
         serializedVersion: 2
-        x: 2160
-        y: 1620
+        x: 270
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -913,8 +913,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_20
       rect:
         serializedVersion: 2
-        x: 2430
-        y: 1620
+        x: 540
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -935,8 +935,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_21
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 1620
+        x: 810
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -957,8 +957,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1440
+        x: 1080
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -979,8 +979,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_23
       rect:
         serializedVersion: 2
-        x: 270
-        y: 1440
+        x: 1350
+        y: 180
         width: 270
         height: 180
       alignment: 0
@@ -1001,8 +1001,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_24
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1440
+        x: 0
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1023,8 +1023,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_25
       rect:
         serializedVersion: 2
-        x: 810
-        y: 1440
+        x: 270
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1045,8 +1045,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_26
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 1440
+        x: 540
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1067,8 +1067,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_27
       rect:
         serializedVersion: 2
-        x: 1350
-        y: 1440
+        x: 810
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1089,8 +1089,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_28
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 1440
+        x: 1080
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1111,8 +1111,8 @@ TextureImporter:
       name: Stranger_Idle_Sheet_29
       rect:
         serializedVersion: 2
-        x: 1890
-        y: 1440
+        x: 1350
+        y: 0
         width: 270
         height: 180
       alignment: 0
@@ -1125,1986 +1125,6 @@ TextureImporter:
       bones: []
       spriteID: f0c64375736634620800000000000000
       internalID: 2757159784753163279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_30
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 1440
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35cbb7b184e9992c0800000000000000
-      internalID: -4424331126378873773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_31
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 1440
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fad436636e8889ab0800000000000000
-      internalID: -5001096863858602577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_32
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 1440
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ab9ce1685bde47f0800000000000000
-      internalID: -626322125511418972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_33
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bc9f3418de06f8c0800000000000000
-      internalID: -3965966100637705032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_34
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c576d31bba5f44b0800000000000000
-      internalID: -5454040864184175160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_35
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daa562ab800de1e00800000000000000
-      internalID: 1017479301733702317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_36
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9994b4839b0167a0800000000000000
-      internalID: -6385810068420126310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_37
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e16d365a492c6690800000000000000
-      internalID: -7607660271284428314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_38
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb7cf5e79de4eaa30800000000000000
-      internalID: 4228403796182550463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_39
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6c55b21cb8f63da0800000000000000
-      internalID: -5965307169754227605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_40
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f968a05836fa7e280800000000000000
-      internalID: -9014043287190075745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_41
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acb893b280fd7e9e0800000000000000
-      internalID: -1592058717074256950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_42
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06275609c06ceeca0800000000000000
-      internalID: -5985629097464335776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_43
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 1260
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 814f8d02d74febb50800000000000000
-      internalID: 6610990121285645336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eea7785df80d75310800000000000000
-      internalID: 1393811925875784430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_45
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 352f586fee94cb0f0800000000000000
-      internalID: -1099922918298226093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_46
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2eb3b4f6a486e9d80800000000000000
-      internalID: -8242035599137358878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_47
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2c53acea61bfaad0800000000000000
-      internalID: -2688735379722118099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_48
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 734477dbcf460a330800000000000000
-      internalID: 3720084328881275959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_49
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c08c36fcf9f589e90800000000000000
-      internalID: -7018754879273056244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_50
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5d00141c23174df0800000000000000
-      internalID: -196166978731242150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_51
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8196fc0f08a854a0800000000000000
-      internalID: -6604344070943370866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_52
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3699210e66fd3b670800000000000000
-      internalID: 8553425750245677411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_53
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e627edd059af1cc30800000000000000
-      internalID: 4378055830870585966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_54
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 1080
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09835ad08eecccb70800000000000000
-      internalID: 8920732457970776208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 437ae0264259800f0800000000000000
-      internalID: -1150505721296672972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_56
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f6f44604054e47a0800000000000000
-      internalID: -6391094937604786439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_57
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87a56f18144f23430800000000000000
-      internalID: 3761337200998242936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_58
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dad4ea58253a596d0800000000000000
-      internalID: -2984299603237646931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_59
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3f29a6a77c289c90800000000000000
-      internalID: -7162926314923937986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_60
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99b0ced50bb6ea640800000000000000
-      internalID: 5093126633836776345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_61
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4a9a504983aeb8c0800000000000000
-      internalID: -3981565210663413172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_62
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2376e1a481e24a2e0800000000000000
-      internalID: -2115515243099691214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_63
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd7bd5f5a209974a0800000000000000
-      internalID: -6595081667644377125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_64
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a696e36a0d8bfd5b0800000000000000
-      internalID: -5341347426756302486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_65
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 900
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 962d47841c3293ee0800000000000000
-      internalID: -1280953305958919575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_66
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e598658d11864ff0800000000000000
-      internalID: -52212381875923481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_67
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e21dbad02f366b730800000000000000
-      internalID: 4014506009109975342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_68
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c87fafa2dcc20b20800000000000000
-      internalID: 3099264698847033544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_69
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aac9d4802e40434c0800000000000000
-      internalID: -4308813574638297942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_70
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5946cbc83270a64c0800000000000000
-      internalID: -4293611445477940075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_71
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc95900ad692c65b0800000000000000
-      internalID: -5373874704546702901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_72
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2de57d8962a764240800000000000000
-      internalID: 4775638761064586962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_73
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f04233f3f08790fa0800000000000000
-      internalID: -5833999835401608177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_74
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de0f07820790a100800000000000000
-      internalID: 117259627423272660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_75
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d883147b86450d30800000000000000
-      internalID: 4396998175958993109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_76
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6748ac825d8298d90800000000000000
-      internalID: -7095094841967999882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_77
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46d956bb786742260800000000000000
-      internalID: 7071907640215182692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_78
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 123ff63d1f7a346d0800000000000000
-      internalID: -3007375469077073119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_79
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc560559b69bb4ff0800000000000000
-      internalID: -50743099066915380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_80
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 545cb47ab1c15de60800000000000000
-      internalID: 7986320419307898181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_81
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78a67ffa5f9253c20800000000000000
-      internalID: 3185498446630447751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_82
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 650bbcdfd5d6c79b0800000000000000
-      internalID: -5081066029123391402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_83
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d962323c65d5c5070800000000000000
-      internalID: 8096448857327740573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_84
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34bad6d732b082d80800000000000000
-      internalID: -8275352068237186237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_85
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1331fc1d26ac09400800000000000000
-      internalID: 328985298573660977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_86
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b530c99d1d35a290800000000000000
-      internalID: -7879824775671958093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_87
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5cdf6f77742446890800000000000000
-      internalID: -7465769407550652987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_88
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1790a449dfb2d68a0800000000000000
-      internalID: -6310339134761596559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_89
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea26e33d585a123e0800000000000000
-      internalID: -2080199558675144018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_90
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01c440e6e4edbb1a0800000000000000
-      internalID: -6792591184523670512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_91
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2188772743a026a40800000000000000
-      internalID: 5359857726899324946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_92
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00dc3a75bde5db8e0800000000000000
-      internalID: -1676079190150755072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_93
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4edbf3c384bbb4d20800000000000000
-      internalID: 3263908273882906084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_94
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 471b614e6645cc1a0800000000000000
-      internalID: -6787957737464090252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_95
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 661238c5197f4e7d0800000000000000
-      internalID: -2889912857170599578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_96
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b11a33f3d3fedd520800000000000000
-      internalID: 2728599995588780315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_97
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9223f1dcf52284360800000000000000
-      internalID: 7154005802936644137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_98
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fcd3d55effa271930800000000000000
-      internalID: 4113804063179357647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_99
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 765e9b98ad3114450800000000000000
-      internalID: 6071155602006599015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_100
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0efbd5fb697f7d090800000000000000
-      internalID: -8009661185427390496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_101
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aafdcab2a0ab8bdb0800000000000000
-      internalID: -4775862851981221974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_102
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fab2c446bc9e12e0800000000000000
-      internalID: -2153111265184924938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_103
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1603fe73473c3b2b0800000000000000
-      internalID: -5569893410205126559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_104
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19deab3611fa4e2b0800000000000000
-      internalID: -5556123551045849711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_105
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d3faff8099d1eaa0800000000000000
-      internalID: -6133382002587798569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_106
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddf0559f319259ec0800000000000000
-      internalID: -3560894764602290211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_107
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3108d746c5a541440800000000000000
-      internalID: 4905645246982750227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_108
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf1f929974577f730800000000000000
-      internalID: 4032820941706359291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_109
-      rect:
-        serializedVersion: 2
-        x: 2700
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46bf1406a094cdd40800000000000000
-      internalID: 5610439544710232932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_110
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 156ce3601edd4ea20800000000000000
-      internalID: 3090839202825160273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_111
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a754ba2c03c9658a0800000000000000
-      internalID: -6316689694102174342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_112
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7b40925741b91c60800000000000000
-      internalID: 7789451950399966076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_113
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd53a3a9197f564d0800000000000000
-      internalID: -3141832960291228193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_114
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34e15dc0a6593db60800000000000000
-      internalID: 7769718064858603075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_115
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9408bb657f39bc40800000000000000
-      internalID: 5528519791124939932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_116
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f042c4f11accd2fd0800000000000000
-      internalID: -2365009236912757745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_117
-      rect:
-        serializedVersion: 2
-        x: 1890
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f35f206cf7f551e00800000000000000
-      internalID: 1014822293429482815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_118
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac206773d2618bc60800000000000000
-      internalID: 7834035935270798026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stranger_Idle_Sheet_119
-      rect:
-        serializedVersion: 2
-        x: 2430
-        y: 0
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91c34c597003b5460800000000000000
-      internalID: 7231426435809033241
       vertices: []
       indices: 
       edges: []
@@ -3123,32 +1143,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":11.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Stranger_Idle_Sheet_0: -3194845738568889964
       Stranger_Idle_Sheet_1: 2145479841934033225
       Stranger_Idle_Sheet_10: -8266463576924841339
-      Stranger_Idle_Sheet_100: -8009661185427390496
-      Stranger_Idle_Sheet_101: -4775862851981221974
-      Stranger_Idle_Sheet_102: -2153111265184924938
-      Stranger_Idle_Sheet_103: -5569893410205126559
-      Stranger_Idle_Sheet_104: -5556123551045849711
-      Stranger_Idle_Sheet_105: -6133382002587798569
-      Stranger_Idle_Sheet_106: -3560894764602290211
-      Stranger_Idle_Sheet_107: 4905645246982750227
-      Stranger_Idle_Sheet_108: 4032820941706359291
-      Stranger_Idle_Sheet_109: 5610439544710232932
       Stranger_Idle_Sheet_11: -8702361947386567485
-      Stranger_Idle_Sheet_110: 3090839202825160273
-      Stranger_Idle_Sheet_111: -6316689694102174342
-      Stranger_Idle_Sheet_112: 7789451950399966076
-      Stranger_Idle_Sheet_113: -3141832960291228193
-      Stranger_Idle_Sheet_114: 7769718064858603075
-      Stranger_Idle_Sheet_115: 5528519791124939932
-      Stranger_Idle_Sheet_116: -2365009236912757745
-      Stranger_Idle_Sheet_117: 1014822293429482815
-      Stranger_Idle_Sheet_118: 7834035935270798026
-      Stranger_Idle_Sheet_119: 7231426435809033241
       Stranger_Idle_Sheet_12: -1606456390869255000
       Stranger_Idle_Sheet_13: -4547940365624217304
       Stranger_Idle_Sheet_14: 5081874917639097697
@@ -3169,82 +1169,12 @@ TextureImporter:
       Stranger_Idle_Sheet_28: -4522853864959836542
       Stranger_Idle_Sheet_29: 2757159784753163279
       Stranger_Idle_Sheet_3: -435023651756184119
-      Stranger_Idle_Sheet_30: -4424331126378873773
-      Stranger_Idle_Sheet_31: -5001096863858602577
-      Stranger_Idle_Sheet_32: -626322125511418972
-      Stranger_Idle_Sheet_33: -3965966100637705032
-      Stranger_Idle_Sheet_34: -5454040864184175160
-      Stranger_Idle_Sheet_35: 1017479301733702317
-      Stranger_Idle_Sheet_36: -6385810068420126310
-      Stranger_Idle_Sheet_37: -7607660271284428314
-      Stranger_Idle_Sheet_38: 4228403796182550463
-      Stranger_Idle_Sheet_39: -5965307169754227605
       Stranger_Idle_Sheet_4: -5898776455370534372
-      Stranger_Idle_Sheet_40: -9014043287190075745
-      Stranger_Idle_Sheet_41: -1592058717074256950
-      Stranger_Idle_Sheet_42: -5985629097464335776
-      Stranger_Idle_Sheet_43: 6610990121285645336
-      Stranger_Idle_Sheet_44: 1393811925875784430
-      Stranger_Idle_Sheet_45: -1099922918298226093
-      Stranger_Idle_Sheet_46: -8242035599137358878
-      Stranger_Idle_Sheet_47: -2688735379722118099
-      Stranger_Idle_Sheet_48: 3720084328881275959
-      Stranger_Idle_Sheet_49: -7018754879273056244
       Stranger_Idle_Sheet_5: 4604491186588916356
-      Stranger_Idle_Sheet_50: -196166978731242150
-      Stranger_Idle_Sheet_51: -6604344070943370866
-      Stranger_Idle_Sheet_52: 8553425750245677411
-      Stranger_Idle_Sheet_53: 4378055830870585966
-      Stranger_Idle_Sheet_54: 8920732457970776208
-      Stranger_Idle_Sheet_55: -1150505721296672972
-      Stranger_Idle_Sheet_56: -6391094937604786439
-      Stranger_Idle_Sheet_57: 3761337200998242936
-      Stranger_Idle_Sheet_58: -2984299603237646931
-      Stranger_Idle_Sheet_59: -7162926314923937986
       Stranger_Idle_Sheet_6: 4816853279769615608
-      Stranger_Idle_Sheet_60: 5093126633836776345
-      Stranger_Idle_Sheet_61: -3981565210663413172
-      Stranger_Idle_Sheet_62: -2115515243099691214
-      Stranger_Idle_Sheet_63: -6595081667644377125
-      Stranger_Idle_Sheet_64: -5341347426756302486
-      Stranger_Idle_Sheet_65: -1280953305958919575
-      Stranger_Idle_Sheet_66: -52212381875923481
-      Stranger_Idle_Sheet_67: 4014506009109975342
-      Stranger_Idle_Sheet_68: 3099264698847033544
-      Stranger_Idle_Sheet_69: -4308813574638297942
       Stranger_Idle_Sheet_7: 2551855906737092813
-      Stranger_Idle_Sheet_70: -4293611445477940075
-      Stranger_Idle_Sheet_71: -5373874704546702901
-      Stranger_Idle_Sheet_72: 4775638761064586962
-      Stranger_Idle_Sheet_73: -5833999835401608177
-      Stranger_Idle_Sheet_74: 117259627423272660
-      Stranger_Idle_Sheet_75: 4396998175958993109
-      Stranger_Idle_Sheet_76: -7095094841967999882
-      Stranger_Idle_Sheet_77: 7071907640215182692
-      Stranger_Idle_Sheet_78: -3007375469077073119
-      Stranger_Idle_Sheet_79: -50743099066915380
       Stranger_Idle_Sheet_8: 1433965551264518162
-      Stranger_Idle_Sheet_80: 7986320419307898181
-      Stranger_Idle_Sheet_81: 3185498446630447751
-      Stranger_Idle_Sheet_82: -5081066029123391402
-      Stranger_Idle_Sheet_83: 8096448857327740573
-      Stranger_Idle_Sheet_84: -8275352068237186237
-      Stranger_Idle_Sheet_85: 328985298573660977
-      Stranger_Idle_Sheet_86: -7879824775671958093
-      Stranger_Idle_Sheet_87: -7465769407550652987
-      Stranger_Idle_Sheet_88: -6310339134761596559
-      Stranger_Idle_Sheet_89: -2080199558675144018
       Stranger_Idle_Sheet_9: 4524400526332232815
-      Stranger_Idle_Sheet_90: -6792591184523670512
-      Stranger_Idle_Sheet_91: 5359857726899324946
-      Stranger_Idle_Sheet_92: -1676079190150755072
-      Stranger_Idle_Sheet_93: 3263908273882906084
-      Stranger_Idle_Sheet_94: -6787957737464090252
-      Stranger_Idle_Sheet_95: -2889912857170599578
-      Stranger_Idle_Sheet_96: 2728599995588780315
-      Stranger_Idle_Sheet_97: 7154005802936644137
-      Stranger_Idle_Sheet_98: 4113804063179357647
-      Stranger_Idle_Sheet_99: 6071155602006599015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
