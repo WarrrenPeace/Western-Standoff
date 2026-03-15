@@ -29,10 +29,12 @@ public class QuickTimeEventMeter : MonoBehaviour
     void OnEnable()
     {
         Countdown.CountDownOver += StartQuickTimeEvent;
+        Countdown.CountDownAlmostOver += ShowQuickTimeEventGraphic;
     }
     void OnDisable()
     {
         Countdown.CountDownOver -= StartQuickTimeEvent;
+        Countdown.CountDownAlmostOver -= ShowQuickTimeEventGraphic;
     }
 
     void Start()
@@ -40,6 +42,17 @@ public class QuickTimeEventMeter : MonoBehaviour
         eventMeter = GetComponent<Slider>();
         eventMeter.value = 0;
         eventSequenceCount = 0;
+    }
+    void ShowQuickTimeEventGraphic() //Adding this because seeing the graphic beforehand i hope would feel better
+    {
+        if(!SequenceCompleted) //If Sequence is not completed keep looping
+        {
+            eventMeter.value = 0;
+
+            eventMeterGraphic.SetActive(true);
+            eventMeterPointer.enabled = true;
+            SetupEventMeterGraphic();
+        }
     }
     void StartQuickTimeEvent()
     {

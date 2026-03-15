@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
     
     public void FillDialogue(QuickTimeEventObject standoff)
     {
-        CharacterTextBox.text = standoff.Character.ToString() + ":";
+        CharacterTextBox.text = standoff.Character.ToString();
         DialogueTextBox.text = standoff.Dialogue.ToString();
     }
 }
