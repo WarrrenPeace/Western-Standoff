@@ -1,76 +1,82 @@
 fileFormatVersion: 2
-guid: 70315670a7dd7b24485413b29f01fd41
+guid: f2c37e21dd254f54095b1a53ded81d15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8043108052827115417
-    second: PutAway_Sheet_0
+      213: -2071953548239456178
+    second: Stranger_Death_Sheet_0
   - first:
-      213: -3391211312280691997
-    second: PutAway_Sheet_1
+      213: 7540859233560740009
+    second: Stranger_Death_Sheet_1
   - first:
-      213: -6194612806799407600
-    second: PutAway_Sheet_2
+      213: -1719406918846833691
+    second: Stranger_Death_Sheet_2
   - first:
-      213: 3551892051707255998
-    second: PutAway_Sheet_3
+      213: 6120398362806000958
+    second: Stranger_Death_Sheet_3
   - first:
-      213: 4124505531499685030
-    second: PutAway_Sheet_4
+      213: -3635017093282214675
+    second: Stranger_Death_Sheet_4
   - first:
-      213: -1017699305940740951
-    second: PutAway_Sheet_5
+      213: 2945795606392808955
+    second: Stranger_Death_Sheet_5
   - first:
-      213: -3570942841432586664
-    second: PutAway_Sheet_6
+      213: 4080741043621744430
+    second: Stranger_Death_Sheet_6
   - first:
-      213: 3203579638639418590
-    second: PutAway_Sheet_7
+      213: 4065166397061067159
+    second: Stranger_Death_Sheet_7
   - first:
-      213: 556576525987296888
-    second: PutAway_Sheet_8
+      213: -384198416412028540
+    second: Stranger_Death_Sheet_8
   - first:
-      213: -3627028883010885625
-    second: PutAway_Sheet_9
+      213: 3575107024167235228
+    second: Stranger_Death_Sheet_9
   - first:
-      213: 7371109156017226630
-    second: PutAway_Sheet_10
+      213: -7374489168494858802
+    second: Stranger_Death_Sheet_10
   - first:
-      213: 3693760475033981065
-    second: PutAway_Sheet_11
+      213: -5124147658555561683
+    second: Stranger_Death_Sheet_11
   - first:
-      213: -994022419192735319
-    second: PutAway_Sheet_12
+      213: -7505290111443741489
+    second: Stranger_Death_Sheet_12
   - first:
-      213: -6325703316474746196
-    second: PutAway_Sheet_13
+      213: 4456393532460430941
+    second: Stranger_Death_Sheet_13
   - first:
-      213: 7955224770376180107
-    second: PutAway_Sheet_14
+      213: -4124203318286160378
+    second: Stranger_Death_Sheet_14
   - first:
-      213: -2031193598150353317
-    second: PutAway_Sheet_15
+      213: -7687327924577004149
+    second: Stranger_Death_Sheet_15
   - first:
-      213: -732629929798823086
-    second: PutAway_Sheet_16
+      213: 8244014263563041978
+    second: Stranger_Death_Sheet_16
   - first:
-      213: 5373915159276278671
-    second: PutAway_Sheet_17
+      213: 8811455358534399652
+    second: Stranger_Death_Sheet_17
   - first:
-      213: -5927907514806347325
-    second: PutAway_Sheet_18
+      213: 7345308555359750460
+    second: Stranger_Death_Sheet_18
   - first:
-      213: 6795943015426487181
-    second: PutAway_Sheet_19
+      213: -5804735305063563803
+    second: Stranger_Death_Sheet_19
   - first:
-      213: 4946336126537933774
-    second: PutAway_Sheet_20
+      213: -6253384270795272735
+    second: Stranger_Death_Sheet_20
   - first:
-      213: 2218589488306741331
-    second: PutAway_Sheet_21
+      213: 100927934611883278
+    second: Stranger_Death_Sheet_21
   - first:
-      213: -1932237190240128010
-    second: PutAway_Sheet_22
+      213: -8542535548258793081
+    second: Stranger_Death_Sheet_22
+  - first:
+      213: -7921796117063739169
+    second: Stranger_Death_Sheet_23
+  - first:
+      213: -7678274048453156783
+    second: Stranger_Death_Sheet_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -179,7 +185,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PutAway_Sheet_0
+      name: Stranger_Death_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -194,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 760f72517d3216090800000000000000
-      internalID: -8043108052827115417
+      spriteID: e48b31eb931fe33e0800000000000000
+      internalID: -2071953548239456178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_1
+      name: Stranger_Death_Sheet_1
       rect:
         serializedVersion: 2
         x: 270
@@ -216,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ea1935674fffe0d0800000000000000
-      internalID: -3391211312280691997
+      spriteID: 9a0cc9d058386a860800000000000000
+      internalID: 7540859233560740009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_2
+      name: Stranger_Death_Sheet_2
       rect:
         serializedVersion: 2
         x: 540
@@ -238,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 016c2a10970580aa0800000000000000
-      internalID: -6194612806799407600
+      spriteID: 5eb19c164807328e0800000000000000
+      internalID: -1719406918846833691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_3
+      name: Stranger_Death_Sheet_3
       rect:
         serializedVersion: 2
         x: 810
@@ -260,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebc5b86900bda4130800000000000000
-      internalID: 3551892051707255998
+      spriteID: e3d1fea32e500f450800000000000000
+      internalID: 6120398362806000958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_4
+      name: Stranger_Death_Sheet_4
       rect:
         serializedVersion: 2
         x: 1080
@@ -282,36 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a42c27adef2d3930800000000000000
-      internalID: 4124505531499685030
+      spriteID: decc07a7633dd8dc0800000000000000
+      internalID: -3635017093282214675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a49d3d8fd760e1f0800000000000000
-      internalID: -1017699305940740951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_6
+      name: Stranger_Death_Sheet_5
       rect:
         serializedVersion: 2
         x: 0
@@ -326,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 856cf27c766717ec0800000000000000
-      internalID: -3570942841432586664
+      spriteID: bf523fb1f7191e820800000000000000
+      internalID: 2945795606392808955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_7
+      name: Stranger_Death_Sheet_6
       rect:
         serializedVersion: 2
         x: 270
@@ -348,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edcd6c245b6657c20800000000000000
-      internalID: 3203579638639418590
+      spriteID: e2f4e65cb54b1a830800000000000000
+      internalID: 4080741043621744430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_8
+      name: Stranger_Death_Sheet_7
       rect:
         serializedVersion: 2
         x: 540
@@ -370,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8763bc9c66b59b700800000000000000
-      internalID: 556576525987296888
+      spriteID: 791fda9cc4f5a6830800000000000000
+      internalID: 4065166397061067159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_9
+      name: Stranger_Death_Sheet_8
       rect:
         serializedVersion: 2
         x: 810
@@ -392,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 708ed0e92743aadc0800000000000000
-      internalID: -3627028883010885625
+      spriteID: 4815e7a639d0baaf0800000000000000
+      internalID: -384198416412028540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_10
+      name: Stranger_Death_Sheet_9
       rect:
         serializedVersion: 2
         x: 1080
@@ -414,36 +398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 683490d39b07b4660800000000000000
-      internalID: 7371109156017226630
+      spriteID: c9eed7195e45d9130800000000000000
+      internalID: 3575107024167235228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98057c7e49fd24330800000000000000
-      internalID: 3693760475033981065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_12
+      name: Stranger_Death_Sheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -458,14 +420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a91e3550e58432f0800000000000000
-      internalID: -994022419192735319
+      spriteID: ecde5e74c2d88a990800000000000000
+      internalID: -7374489168494858802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_13
+      name: Stranger_Death_Sheet_11
       rect:
         serializedVersion: 2
         x: 270
@@ -480,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caa230349569638a0800000000000000
-      internalID: -6325703316474746196
+      spriteID: d29652b7ade53e8b0800000000000000
+      internalID: -5124147658555561683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_14
+      name: Stranger_Death_Sheet_12
       rect:
         serializedVersion: 2
         x: 540
@@ -502,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8129a2b7c2a66e60800000000000000
-      internalID: 7955224770376180107
+      spriteID: fc4d42b886ad7d790800000000000000
+      internalID: -7505290111443741489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_15
+      name: Stranger_Death_Sheet_13
       rect:
         serializedVersion: 2
         x: 810
@@ -524,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5e53382f20cfc3e0800000000000000
-      internalID: -2031193598150353317
+      spriteID: d56f6a98e4a48dd30800000000000000
+      internalID: 4456393532460430941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_16
+      name: Stranger_Death_Sheet_14
       rect:
         serializedVersion: 2
         x: 1080
@@ -546,36 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2539582e5fc25d5f0800000000000000
-      internalID: -732629929798823086
+      spriteID: 60ee018dee2e3c6c0800000000000000
+      internalID: -4124203318286160378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f83dfb97d5bf39a40800000000000000
-      internalID: 5373915159276278671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_18
+      name: Stranger_Death_Sheet_15
       rect:
         serializedVersion: 2
         x: 0
@@ -590,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c9599ec587dbbda0800000000000000
-      internalID: -5927907514806347325
+      spriteID: b8595a75bff115590800000000000000
+      internalID: -7687327924577004149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_19
+      name: Stranger_Death_Sheet_16
       rect:
         serializedVersion: 2
         x: 270
@@ -612,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d83fa448a2a005e50800000000000000
-      internalID: 6795943015426487181
+      spriteID: abcbde64b4f986270800000000000000
+      internalID: 8244014263563041978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_20
+      name: Stranger_Death_Sheet_17
       rect:
         serializedVersion: 2
         x: 540
@@ -634,14 +574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec3a9f1108ae4a440800000000000000
-      internalID: 4946336126537933774
+      spriteID: 4a6b7a7a6f3984a70800000000000000
+      internalID: 8811455358534399652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_21
+      name: Stranger_Death_Sheet_18
       rect:
         serializedVersion: 2
         x: 810
@@ -656,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35060f092630ace10800000000000000
-      internalID: 2218589488306741331
+      spriteID: c390bd7c637cfe560800000000000000
+      internalID: 7345308555359750460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_22
+      name: Stranger_Death_Sheet_19
       rect:
         serializedVersion: 2
         x: 1080
@@ -678,36 +618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f330fd43805f25e0800000000000000
-      internalID: -1932237190240128010
+      spriteID: 5ed748eaeff617fa0800000000000000
+      internalID: -5804735305063563803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74617cd5a4c777a429142d1e32c070f8
-      internalID: 1870995296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_24
+      name: Stranger_Death_Sheet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -720,16 +638,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b4ca64ac3b762141b8008729d4fe382
-      internalID: -508175647
+      spriteID: 1ed8b3733248739a0800000000000000
+      internalID: -6253384270795272735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_25
+      name: Stranger_Death_Sheet_21
       rect:
         serializedVersion: 2
         x: 270
@@ -742,16 +660,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fcc2e3142e712d04fac1600d5c7e369c
-      internalID: -1150007393
+      spriteID: e05847afb61966100800000000000000
+      internalID: 100927934611883278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_26
+      name: Stranger_Death_Sheet_22
       rect:
         serializedVersion: 2
         x: 540
@@ -764,10 +682,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 995f5dd05190c854a9951446cbf8fc91
-      internalID: 1888089022
+      spriteID: 78943ecdd21d27980800000000000000
+      internalID: -8542535548258793081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranger_Death_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d85b2760201290800000000000000
+      internalID: -7921796117063739169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranger_Death_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15069d52f6a417590800000000000000
+      internalID: -7678274048453156783
       vertices: []
       indices: 
       edges: []
@@ -776,7 +738,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 84b6f0f0225c47b4a9da240a9d77bfc8
+    spriteID: 70638de79a5c5f34daf039390d31082f
     internalID: 0
     vertices: []
     indices: 
@@ -786,35 +748,33 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      PutAway_Sheet_0: -8043108052827115417
-      PutAway_Sheet_1: -3391211312280691997
-      PutAway_Sheet_10: 7371109156017226630
-      PutAway_Sheet_11: 3693760475033981065
-      PutAway_Sheet_12: -994022419192735319
-      PutAway_Sheet_13: -6325703316474746196
-      PutAway_Sheet_14: 7955224770376180107
-      PutAway_Sheet_15: -2031193598150353317
-      PutAway_Sheet_16: -732629929798823086
-      PutAway_Sheet_17: 5373915159276278671
-      PutAway_Sheet_18: -5927907514806347325
-      PutAway_Sheet_19: 6795943015426487181
-      PutAway_Sheet_2: -6194612806799407600
-      PutAway_Sheet_20: 4946336126537933774
-      PutAway_Sheet_21: 2218589488306741331
-      PutAway_Sheet_22: -1932237190240128010
-      PutAway_Sheet_23: 1870995296
-      PutAway_Sheet_24: -508175647
-      PutAway_Sheet_25: -1150007393
-      PutAway_Sheet_26: 1888089022
-      PutAway_Sheet_3: 3551892051707255998
-      PutAway_Sheet_4: 4124505531499685030
-      PutAway_Sheet_5: -1017699305940740951
-      PutAway_Sheet_6: -3570942841432586664
-      PutAway_Sheet_7: 3203579638639418590
-      PutAway_Sheet_8: 556576525987296888
-      PutAway_Sheet_9: -3627028883010885625
+      Stranger_Death_Sheet_0: -2071953548239456178
+      Stranger_Death_Sheet_1: 7540859233560740009
+      Stranger_Death_Sheet_10: -7374489168494858802
+      Stranger_Death_Sheet_11: -5124147658555561683
+      Stranger_Death_Sheet_12: -7505290111443741489
+      Stranger_Death_Sheet_13: 4456393532460430941
+      Stranger_Death_Sheet_14: -4124203318286160378
+      Stranger_Death_Sheet_15: -7687327924577004149
+      Stranger_Death_Sheet_16: 8244014263563041978
+      Stranger_Death_Sheet_17: 8811455358534399652
+      Stranger_Death_Sheet_18: 7345308555359750460
+      Stranger_Death_Sheet_19: -5804735305063563803
+      Stranger_Death_Sheet_2: -1719406918846833691
+      Stranger_Death_Sheet_20: -6253384270795272735
+      Stranger_Death_Sheet_21: 100927934611883278
+      Stranger_Death_Sheet_22: -8542535548258793081
+      Stranger_Death_Sheet_23: -7921796117063739169
+      Stranger_Death_Sheet_24: -7678274048453156783
+      Stranger_Death_Sheet_3: 6120398362806000958
+      Stranger_Death_Sheet_4: -3635017093282214675
+      Stranger_Death_Sheet_5: 2945795606392808955
+      Stranger_Death_Sheet_6: 4080741043621744430
+      Stranger_Death_Sheet_7: 4065166397061067159
+      Stranger_Death_Sheet_8: -384198416412028540
+      Stranger_Death_Sheet_9: 3575107024167235228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

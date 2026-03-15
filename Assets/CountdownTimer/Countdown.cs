@@ -43,7 +43,7 @@ public class Countdown : MonoBehaviour
         if (timeRemaining <= 1 && !IsLastSecond)
         {
             IsLastSecond = true;
-            Debug.Log("This should call once");  CountDownAlmostOver.Invoke();
+            CountDownAlmostOver.Invoke();
         }
     }
     void CountdownCompleted()

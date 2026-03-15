@@ -1,76 +1,67 @@
 fileFormatVersion: 2
-guid: 70315670a7dd7b24485413b29f01fd41
+guid: 55122f48df3d64f4ea961122264e09eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8043108052827115417
-    second: PutAway_Sheet_0
+      213: -4281547367256959625
+    second: Stranger_FireGun_Sheet_0
   - first:
-      213: -3391211312280691997
-    second: PutAway_Sheet_1
+      213: -2091122820507399879
+    second: Stranger_FireGun_Sheet_1
   - first:
-      213: -6194612806799407600
-    second: PutAway_Sheet_2
+      213: -5934093585681052781
+    second: Stranger_FireGun_Sheet_2
   - first:
-      213: 3551892051707255998
-    second: PutAway_Sheet_3
+      213: 3433008908497765040
+    second: Stranger_FireGun_Sheet_3
   - first:
-      213: 4124505531499685030
-    second: PutAway_Sheet_4
+      213: 6433131112133295523
+    second: Stranger_FireGun_Sheet_4
   - first:
-      213: -1017699305940740951
-    second: PutAway_Sheet_5
+      213: 4799613475187306888
+    second: Stranger_FireGun_Sheet_5
   - first:
-      213: -3570942841432586664
-    second: PutAway_Sheet_6
+      213: -1644832443863145821
+    second: Stranger_FireGun_Sheet_6
   - first:
-      213: 3203579638639418590
-    second: PutAway_Sheet_7
+      213: 991514999106297936
+    second: Stranger_FireGun_Sheet_7
   - first:
-      213: 556576525987296888
-    second: PutAway_Sheet_8
+      213: 4031044236341022683
+    second: Stranger_FireGun_Sheet_8
   - first:
-      213: -3627028883010885625
-    second: PutAway_Sheet_9
+      213: -6655544936020104229
+    second: Stranger_FireGun_Sheet_9
   - first:
-      213: 7371109156017226630
-    second: PutAway_Sheet_10
+      213: 4378274084006130879
+    second: Stranger_FireGun_Sheet_10
   - first:
-      213: 3693760475033981065
-    second: PutAway_Sheet_11
+      213: 6538896286279250372
+    second: Stranger_FireGun_Sheet_11
   - first:
-      213: -994022419192735319
-    second: PutAway_Sheet_12
+      213: 2817512418192551646
+    second: Stranger_FireGun_Sheet_12
   - first:
-      213: -6325703316474746196
-    second: PutAway_Sheet_13
+      213: 7309315971496427030
+    second: Stranger_FireGun_Sheet_13
   - first:
-      213: 7955224770376180107
-    second: PutAway_Sheet_14
+      213: -2774832112833134360
+    second: Stranger_FireGun_Sheet_14
   - first:
-      213: -2031193598150353317
-    second: PutAway_Sheet_15
+      213: 5215982869450740756
+    second: Stranger_FireGun_Sheet_15
   - first:
-      213: -732629929798823086
-    second: PutAway_Sheet_16
+      213: -8552874625106534350
+    second: Stranger_FireGun_Sheet_16
   - first:
-      213: 5373915159276278671
-    second: PutAway_Sheet_17
+      213: 1832885575189328411
+    second: Stranger_FireGun_Sheet_17
   - first:
-      213: -5927907514806347325
-    second: PutAway_Sheet_18
+      213: 4387881075265938223
+    second: Stranger_FireGun_Sheet_18
   - first:
-      213: 6795943015426487181
-    second: PutAway_Sheet_19
-  - first:
-      213: 4946336126537933774
-    second: PutAway_Sheet_20
-  - first:
-      213: 2218589488306741331
-    second: PutAway_Sheet_21
-  - first:
-      213: -1932237190240128010
-    second: PutAway_Sheet_22
+      213: -7791625841510982306
+    second: Stranger_FireGun_Sheet_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -179,139 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PutAway_Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 760f72517d3216090800000000000000
-      internalID: -8043108052827115417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ea1935674fffe0d0800000000000000
-      internalID: -3391211312280691997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 016c2a10970580aa0800000000000000
-      internalID: -6194612806799407600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 810
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebc5b86900bda4130800000000000000
-      internalID: 3551892051707255998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a42c27adef2d3930800000000000000
-      internalID: 4124505531499685030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 720
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a49d3d8fd760e1f0800000000000000
-      internalID: -1017699305940740951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_6
+      name: Stranger_FireGun_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -326,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 856cf27c766717ec0800000000000000
-      internalID: -3570942841432586664
+      spriteID: 775d3a5aa53e494c0800000000000000
+      internalID: -4281547367256959625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_7
+      name: Stranger_FireGun_Sheet_1
       rect:
         serializedVersion: 2
         x: 270
@@ -348,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edcd6c245b6657c20800000000000000
-      internalID: 3203579638639418590
+      spriteID: 93981fdbfd6daf2e0800000000000000
+      internalID: -2091122820507399879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_8
+      name: Stranger_FireGun_Sheet_2
       rect:
         serializedVersion: 2
         x: 540
@@ -370,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8763bc9c66b59b700800000000000000
-      internalID: 556576525987296888
+      spriteID: 39b8e81f25dd5ada0800000000000000
+      internalID: -5934093585681052781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_9
+      name: Stranger_FireGun_Sheet_3
       rect:
         serializedVersion: 2
         x: 810
@@ -392,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 708ed0e92743aadc0800000000000000
-      internalID: -3627028883010885625
+      spriteID: 0b2c2c5d96f74af20800000000000000
+      internalID: 3433008908497765040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_10
+      name: Stranger_FireGun_Sheet_4
       rect:
         serializedVersion: 2
         x: 1080
@@ -414,36 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 683490d39b07b4660800000000000000
-      internalID: 7371109156017226630
+      spriteID: 3adf73c89a2174950800000000000000
+      internalID: 6433131112133295523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 540
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98057c7e49fd24330800000000000000
-      internalID: 3693760475033981065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_12
+      name: Stranger_FireGun_Sheet_5
       rect:
         serializedVersion: 2
         x: 0
@@ -458,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a91e3550e58432f0800000000000000
-      internalID: -994022419192735319
+      spriteID: 881b7b7b607ab9240800000000000000
+      internalID: 4799613475187306888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_13
+      name: Stranger_FireGun_Sheet_6
       rect:
         serializedVersion: 2
         x: 270
@@ -480,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caa230349569638a0800000000000000
-      internalID: -6325703316474746196
+      spriteID: 3a2ef746b916c29e0800000000000000
+      internalID: -1644832443863145821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_14
+      name: Stranger_FireGun_Sheet_7
       rect:
         serializedVersion: 2
         x: 540
@@ -502,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8129a2b7c2a66e60800000000000000
-      internalID: 7955224770376180107
+      spriteID: 050e33f63a192cd00800000000000000
+      internalID: 991514999106297936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_15
+      name: Stranger_FireGun_Sheet_8
       rect:
         serializedVersion: 2
         x: 810
@@ -524,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5e53382f20cfc3e0800000000000000
-      internalID: -2031193598150353317
+      spriteID: bdf0ef4206521f730800000000000000
+      internalID: 4031044236341022683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_16
+      name: Stranger_FireGun_Sheet_9
       rect:
         serializedVersion: 2
         x: 1080
@@ -546,36 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2539582e5fc25d5f0800000000000000
-      internalID: -732629929798823086
+      spriteID: bdb2fdda421c2a3a0800000000000000
+      internalID: -6655544936020104229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 360
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f83dfb97d5bf39a40800000000000000
-      internalID: 5373915159276278671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_18
+      name: Stranger_FireGun_Sheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -590,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c9599ec587dbbda0800000000000000
-      internalID: -5927907514806347325
+      spriteID: fb4fb721511c2cc30800000000000000
+      internalID: 4378274084006130879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_19
+      name: Stranger_FireGun_Sheet_11
       rect:
         serializedVersion: 2
         x: 270
@@ -612,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d83fa448a2a005e50800000000000000
-      internalID: 6795943015426487181
+      spriteID: 4c1bbce1783deba50800000000000000
+      internalID: 6538896286279250372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_20
+      name: Stranger_FireGun_Sheet_12
       rect:
         serializedVersion: 2
         x: 540
@@ -634,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec3a9f1108ae4a440800000000000000
-      internalID: 4946336126537933774
+      spriteID: ede6e94dd90d91720800000000000000
+      internalID: 2817512418192551646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_21
+      name: Stranger_FireGun_Sheet_13
       rect:
         serializedVersion: 2
         x: 810
@@ -656,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35060f092630ace10800000000000000
-      internalID: 2218589488306741331
+      spriteID: 61e32205628ef6560800000000000000
+      internalID: 7309315971496427030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_22
+      name: Stranger_FireGun_Sheet_14
       rect:
         serializedVersion: 2
         x: 1080
@@ -678,36 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f330fd43805f25e0800000000000000
-      internalID: -1932237190240128010
+      spriteID: 8e00c3325e0dd79d0800000000000000
+      internalID: -2774832112833134360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 1350
-        y: 180
-        width: 270
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74617cd5a4c777a429142d1e32c070f8
-      internalID: 1870995296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PutAway_Sheet_24
+      name: Stranger_FireGun_Sheet_15
       rect:
         serializedVersion: 2
         x: 0
@@ -720,16 +513,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b4ca64ac3b762141b8008729d4fe382
-      internalID: -508175647
+      spriteID: 4145228c8c4e26840800000000000000
+      internalID: 5215982869450740756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_25
+      name: Stranger_FireGun_Sheet_16
       rect:
         serializedVersion: 2
         x: 270
@@ -742,16 +535,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fcc2e3142e712d04fac1600d5c7e369c
-      internalID: -1150007393
+      spriteID: 230a212f7d51e4980800000000000000
+      internalID: -8552874625106534350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PutAway_Sheet_26
+      name: Stranger_FireGun_Sheet_17
       rect:
         serializedVersion: 2
         x: 540
@@ -764,10 +557,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 995f5dd05190c854a9951446cbf8fc91
-      internalID: 1888089022
+      spriteID: b12f81738b7bf6910800000000000000
+      internalID: 1832885575189328411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranger_FireGun_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23a2e70792e4ec30800000000000000
+      internalID: 4387881075265938223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stranger_FireGun_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ddbf534959ed390800000000000000
+      internalID: -7791625841510982306
       vertices: []
       indices: 
       edges: []
@@ -776,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 84b6f0f0225c47b4a9da240a9d77bfc8
+    spriteID: 0be096e968af1f34897b9eddf03cb53d
     internalID: 0
     vertices: []
     indices: 
@@ -786,35 +623,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      PutAway_Sheet_0: -8043108052827115417
-      PutAway_Sheet_1: -3391211312280691997
-      PutAway_Sheet_10: 7371109156017226630
-      PutAway_Sheet_11: 3693760475033981065
-      PutAway_Sheet_12: -994022419192735319
-      PutAway_Sheet_13: -6325703316474746196
-      PutAway_Sheet_14: 7955224770376180107
-      PutAway_Sheet_15: -2031193598150353317
-      PutAway_Sheet_16: -732629929798823086
-      PutAway_Sheet_17: 5373915159276278671
-      PutAway_Sheet_18: -5927907514806347325
-      PutAway_Sheet_19: 6795943015426487181
-      PutAway_Sheet_2: -6194612806799407600
-      PutAway_Sheet_20: 4946336126537933774
-      PutAway_Sheet_21: 2218589488306741331
-      PutAway_Sheet_22: -1932237190240128010
-      PutAway_Sheet_23: 1870995296
-      PutAway_Sheet_24: -508175647
-      PutAway_Sheet_25: -1150007393
-      PutAway_Sheet_26: 1888089022
-      PutAway_Sheet_3: 3551892051707255998
-      PutAway_Sheet_4: 4124505531499685030
-      PutAway_Sheet_5: -1017699305940740951
-      PutAway_Sheet_6: -3570942841432586664
-      PutAway_Sheet_7: 3203579638639418590
-      PutAway_Sheet_8: 556576525987296888
-      PutAway_Sheet_9: -3627028883010885625
+      Stranger_FireGun_Sheet_0: -4281547367256959625
+      Stranger_FireGun_Sheet_1: -2091122820507399879
+      Stranger_FireGun_Sheet_10: 4378274084006130879
+      Stranger_FireGun_Sheet_11: 6538896286279250372
+      Stranger_FireGun_Sheet_12: 2817512418192551646
+      Stranger_FireGun_Sheet_13: 7309315971496427030
+      Stranger_FireGun_Sheet_14: -2774832112833134360
+      Stranger_FireGun_Sheet_15: 5215982869450740756
+      Stranger_FireGun_Sheet_16: -8552874625106534350
+      Stranger_FireGun_Sheet_17: 1832885575189328411
+      Stranger_FireGun_Sheet_18: 4387881075265938223
+      Stranger_FireGun_Sheet_19: -7791625841510982306
+      Stranger_FireGun_Sheet_2: -5934093585681052781
+      Stranger_FireGun_Sheet_3: 3433008908497765040
+      Stranger_FireGun_Sheet_4: 6433131112133295523
+      Stranger_FireGun_Sheet_5: 4799613475187306888
+      Stranger_FireGun_Sheet_6: -1644832443863145821
+      Stranger_FireGun_Sheet_7: 991514999106297936
+      Stranger_FireGun_Sheet_8: 4031044236341022683
+      Stranger_FireGun_Sheet_9: -6655544936020104229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

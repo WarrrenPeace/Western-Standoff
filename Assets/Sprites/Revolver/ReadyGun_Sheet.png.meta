@@ -173,10 +173,10 @@ TextureImporter:
       name: ReadyGun_Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 360
-        width: 135
-        height: 90
+        x: 270
+        y: 720
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: ReadyGun_Sheet_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 360
-        width: 135
-        height: 90
+        x: 540
+        y: 720
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: ReadyGun_Sheet_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 360
-        width: 135
-        height: 90
+        x: 810
+        y: 720
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: ReadyGun_Sheet_3
       rect:
         serializedVersion: 2
-        x: 405
-        y: 360
-        width: 135
-        height: 90
+        x: 1080
+        y: 720
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: ReadyGun_Sheet_4
       rect:
         serializedVersion: 2
-        x: 540
-        y: 360
-        width: 135
-        height: 90
+        x: 1350
+        y: 720
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,9 +284,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
-        width: 135
-        height: 90
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: ReadyGun_Sheet_6
       rect:
         serializedVersion: 2
-        x: 135
-        y: 270
-        width: 135
-        height: 90
+        x: 270
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: ReadyGun_Sheet_7
       rect:
         serializedVersion: 2
-        x: 270
-        y: 270
-        width: 135
-        height: 90
+        x: 540
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: ReadyGun_Sheet_8
       rect:
         serializedVersion: 2
-        x: 405
-        y: 270
-        width: 135
-        height: 90
+        x: 810
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: ReadyGun_Sheet_9
       rect:
         serializedVersion: 2
-        x: 540
-        y: 270
-        width: 135
-        height: 90
+        x: 1080
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: ReadyGun_Sheet_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 180
-        width: 135
-        height: 90
+        x: 1350
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: ReadyGun_Sheet_11
       rect:
         serializedVersion: 2
-        x: 135
-        y: 180
-        width: 135
-        height: 90
+        x: 0
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,9 +438,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 270
-        y: 180
-        width: 135
-        height: 90
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: ReadyGun_Sheet_13
       rect:
         serializedVersion: 2
-        x: 405
-        y: 180
-        width: 135
-        height: 90
+        x: 540
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: ReadyGun_Sheet_14
       rect:
         serializedVersion: 2
-        x: 540
-        y: 180
-        width: 135
-        height: 90
+        x: 810
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: ReadyGun_Sheet_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 90
-        width: 135
-        height: 90
+        x: 1080
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: ReadyGun_Sheet_16
       rect:
         serializedVersion: 2
-        x: 135
-        y: 90
-        width: 135
-        height: 90
+        x: 1350
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: ReadyGun_Sheet_17
       rect:
         serializedVersion: 2
-        x: 270
-        y: 90
-        width: 135
-        height: 90
+        x: 0
+        y: 180
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: ReadyGun_Sheet_18
       rect:
         serializedVersion: 2
-        x: 405
-        y: 90
-        width: 135
-        height: 90
+        x: 270
+        y: 180
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,9 +592,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 90
-        width: 135
-        height: 90
+        y: 180
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: ReadyGun_Sheet_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 135
-        height: 90
+        x: 810
+        y: 180
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,6 +627,160 @@ TextureImporter:
       bones: []
       spriteID: a7a5f43e46a5a394ba80890ace176ef7
       internalID: 966029341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 180
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bf8111f5c1b5b4babcf2f3e6ea08ac
+      internalID: 2123616161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 180
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1e49efed4a7b478e3fbcf7053cb89
+      internalID: -1536026339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734977fd6a306a44933f96941e1824a
+      internalID: 250007934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb973e841672244bbba3c6699955a71
+      internalID: 1104712198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58641d97ce0da4f9934088f95b20a7
+      internalID: 756281394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d76fdbf766c3a44934c23334ac6c71
+      internalID: -917220984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReadyGun_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e960019b2356d42b91f66d95dfc373
+      internalID: 1850652963
       vertices: []
       indices: 
       edges: []
@@ -645,7 +799,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":135.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ReadyGun_Sheet_0: 8509721502248841679
       ReadyGun_Sheet_1: -4206109549040629340
@@ -661,6 +815,13 @@ TextureImporter:
       ReadyGun_Sheet_19: 1030021084160167380
       ReadyGun_Sheet_2: -4956605313618836938
       ReadyGun_Sheet_20: 966029341
+      ReadyGun_Sheet_21: 2123616161
+      ReadyGun_Sheet_22: -1536026339
+      ReadyGun_Sheet_23: 250007934
+      ReadyGun_Sheet_24: 1104712198
+      ReadyGun_Sheet_25: 756281394
+      ReadyGun_Sheet_26: -917220984
+      ReadyGun_Sheet_27: 1850652963
       ReadyGun_Sheet_3: 8481377353748451837
       ReadyGun_Sheet_4: -8550692183199433870
       ReadyGun_Sheet_5: -4050150142416332450

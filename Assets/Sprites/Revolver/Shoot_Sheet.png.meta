@@ -177,9 +177,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 360
-        width: 135
-        height: 90
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: Shoot_Sheet_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 360
-        width: 135
-        height: 90
+        x: 270
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: Shoot_Sheet_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 360
-        width: 135
-        height: 90
+        x: 540
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Shoot_Sheet_3
       rect:
         serializedVersion: 2
-        x: 405
-        y: 360
-        width: 135
-        height: 90
+        x: 810
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: Shoot_Sheet_4
       rect:
         serializedVersion: 2
-        x: 540
-        y: 360
-        width: 135
-        height: 90
+        x: 1080
+        y: 540
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,9 +287,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
-        width: 135
-        height: 90
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: Shoot_Sheet_6
       rect:
         serializedVersion: 2
-        x: 135
-        y: 270
-        width: 135
-        height: 90
+        x: 270
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Shoot_Sheet_7
       rect:
         serializedVersion: 2
-        x: 270
-        y: 270
-        width: 135
-        height: 90
+        x: 540
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: Shoot_Sheet_8
       rect:
         serializedVersion: 2
-        x: 405
-        y: 270
-        width: 135
-        height: 90
+        x: 810
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +374,10 @@ TextureImporter:
       name: Shoot_Sheet_9
       rect:
         serializedVersion: 2
-        x: 540
-        y: 270
-        width: 135
-        height: 90
+        x: 1080
+        y: 360
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,8 +398,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 180
-        width: 135
-        height: 90
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +418,10 @@ TextureImporter:
       name: Shoot_Sheet_11
       rect:
         serializedVersion: 2
-        x: 135
+        x: 270
         y: 180
-        width: 135
-        height: 90
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: Shoot_Sheet_12
       rect:
         serializedVersion: 2
-        x: 270
+        x: 540
         y: 180
-        width: 135
-        height: 90
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: Shoot_Sheet_13
       rect:
         serializedVersion: 2
-        x: 405
+        x: 810
         y: 180
-        width: 135
-        height: 90
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: Shoot_Sheet_14
       rect:
         serializedVersion: 2
-        x: 540
+        x: 1080
         y: 180
-        width: 135
-        height: 90
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,9 +507,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 135
-        height: 90
+        y: 0
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: Shoot_Sheet_16
       rect:
         serializedVersion: 2
-        x: 135
-        y: 90
-        width: 135
-        height: 90
+        x: 270
+        y: 0
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: Shoot_Sheet_17
       rect:
         serializedVersion: 2
-        x: 270
-        y: 90
-        width: 135
-        height: 90
+        x: 540
+        y: 0
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +572,10 @@ TextureImporter:
       name: Shoot_Sheet_18
       rect:
         serializedVersion: 2
-        x: 405
-        y: 90
-        width: 135
-        height: 90
+        x: 810
+        y: 0
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +594,10 @@ TextureImporter:
       name: Shoot_Sheet_19
       rect:
         serializedVersion: 2
-        x: 540
-        y: 90
-        width: 135
-        height: 90
+        x: 1080
+        y: 0
+        width: 270
+        height: 180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,28 +608,6 @@ TextureImporter:
       bones: []
       spriteID: cc0b65dd5d54ea7c0800000000000000
       internalID: -4058229429370441524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shoot_Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 135
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e1702d60c933c730800000000000000
-      internalID: 4018118791171961314
       vertices: []
       indices: 
       edges: []
@@ -648,7 +626,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":135.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":270.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Shoot_Sheet_0: 7419970010453857104
       Shoot_Sheet_1: -1014480206155012722
@@ -663,7 +641,6 @@ TextureImporter:
       Shoot_Sheet_18: 7526065652188540508
       Shoot_Sheet_19: -4058229429370441524
       Shoot_Sheet_2: -3949436066859209694
-      Shoot_Sheet_20: 4018118791171961314
       Shoot_Sheet_3: 3715444891085679920
       Shoot_Sheet_4: 1329697894802019650
       Shoot_Sheet_5: 8584065045284453343
