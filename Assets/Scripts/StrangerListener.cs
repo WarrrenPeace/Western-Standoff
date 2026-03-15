@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class StrangerListener : MonoBehaviour
 {
-    Animator AM;
+    [SerializeField] Animator AM;
     void OnEnable()
     {
         Countdown.CountDownAlmostOver += StrangerReadyGun;
@@ -13,7 +13,7 @@ public class StrangerListener : MonoBehaviour
     void OnDisable()
     {
         Countdown.CountDownAlmostOver -= StrangerReadyGun;
-        QuickTimeEventMeter.OnSuccessfulHit += StrangerDeath;
+        QuickTimeEventMeter.OnSuccessfulHit -= StrangerDeath;
         QuickTimeEventMeter.OnFailedHit -= StrangerFireGun;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created

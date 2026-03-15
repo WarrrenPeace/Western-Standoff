@@ -28,7 +28,7 @@ public class RevolverListener : MonoBehaviour
     void FireGun()
     {
         AM.SetTrigger("Shoot");
-        Invoke("PutAwayGun",0.75f); //Temporary
+        Invoke("PutAwayGun",1f); //Temporary
     }
     void PutAwayGun()
     {

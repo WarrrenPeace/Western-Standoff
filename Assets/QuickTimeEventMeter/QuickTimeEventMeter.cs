@@ -11,6 +11,9 @@ public class QuickTimeEventMeter : MonoBehaviour
     public static event Action OnSuccessfulHit; //Hit within green
     public static event Action OnFailedHit; //Hit within red
 
+    public static event Action OnSequenceCompleted; //Hit every safezone in all events
+    bool SequenceCompleted = false;
+
     Slider eventMeter;
     [SerializeField] Material eventMeterGraphicMaterial;
     [SerializeField] GameObject eventMeterGraphic;
@@ -39,13 +42,16 @@ public class QuickTimeEventMeter : MonoBehaviour
     }
     void StartQuickTimeEvent()
     {
-        eventMeter.value = 0;
+        if(!SequenceCompleted) //If Sequence is not completed keep looping
+        {
+            eventMeter.value = 0;
 
-        eventMeterGraphic.SetActive(true);
-        eventMeterPointer.enabled = true;
-        SetupEventMeterGraphic();
-        isEventHappening = true;
-    }
+            eventMeterGraphic.SetActive(true);
+            eventMeterPointer.enabled = true;
+            SetupEventMeterGraphic();
+            isEventHappening = true;
+        }
+    }    
 
     void Update()
     {
@@ -119,8 +125,12 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
         }
         else if (eventSequenceCount + 1 >= eventSequenceOrder.Count) //This would be the end of the game
         {
-            Debug.Log("REACHED END");
-            ResetEventSequence();
+            LastInSequenceReached();
         }
+    }
+    void LastInSequenceReached()
+    {
+        SequenceCompleted = true;
+        OnSequenceCompleted.Invoke();
     }
 }

@@ -901,6 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022b28026fbccaa4c962c10eb0694022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  AS: {fileID: 592442047}
   RevolverHolster: {fileID: 8300000, guid: ab48c00199f9ee343950a8a04e041e74, type: 3}
   RevolverShoot: {fileID: 8300000, guid: 02f6e80ea9b443144aa0ae33f39eee7c, type: 3}
   RevolverSpin: {fileID: 8300000, guid: a9641eb9013bd29469df978af2c72ae8, type: 3}
@@ -1178,7 +1179,7 @@ GameObject:
   - component: {fileID: 847131769}
   m_Layer: 5
   m_Name: Death
-  m_TagString: Untagged
+  m_TagString: DeathUI
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1292,7 +1293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 5}
+  m_AnchoredPosition: {x: 0, y: 5}
   m_SizeDelta: {x: 12, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &919665460
@@ -2077,6 +2078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f12f998c72463247ad2cf3c59e4a75e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  AM: {fileID: 1884183427}
 --- !u!95 &1884183427
 Animator:
   serializedVersion: 7
@@ -2165,7 +2167,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: b870aab70967bd74d9fed2308adea932, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
@@ -2262,6 +2264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d2226d7f867424a9ca9f87b4bd765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  AS: {fileID: 1940593296}
   StartRun: {fileID: 8300000, guid: b870aab70967bd74d9fed2308adea932, type: 3}
   DieDuringRun: {fileID: 0}
   CompletedRun: {fileID: 8300000, guid: f9960ed67ce04bc4a937f336af005f05, type: 3}

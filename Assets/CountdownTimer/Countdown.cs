@@ -15,11 +15,11 @@ public class Countdown : MonoBehaviour
 
     void OnEnable()
     {
-        QuickTimeEventMeter.OnSuccessfulHit += RestartClock;
+        //QuickTimeEventMeter.OnSuccessfulHit += RestartClock;
     }
     void OnDisable()
     {
-        QuickTimeEventMeter.OnSuccessfulHit -= RestartClock;
+        //QuickTimeEventMeter.OnSuccessfulHit -= RestartClock;
     }
     void Update()
     {

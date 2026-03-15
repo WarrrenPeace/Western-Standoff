@@ -3,13 +3,21 @@ using UnityEngine;
 public class SoundEffectManager : MonoBehaviour
 {
     public static SoundEffectManager instance;
-    AudioSource AS;
+    [SerializeField] AudioSource AS;
     [SerializeField] AudioClip RevolverHolster;
     [SerializeField] AudioClip RevolverShoot;
     [SerializeField] AudioClip RevolverSpin;
     void Awake()
     {
-        instance = this;
+        if(!instance) 
+        {
+            instance = this;
+            //DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     void OnEnable()
     {
@@ -20,13 +28,14 @@ public class SoundEffectManager : MonoBehaviour
     void OnDisable()
     {
         QuickTimeEventMeter.OnSuccessfulHit -= OnSuccessfulHitSFX;
-        Countdown.CountDownAlmostOver += CountDownAlmostOverSFX;
+        Countdown.CountDownAlmostOver -= CountDownAlmostOverSFX;
         QuickTimeEventMeter.OnFailedHit -= OnFailedHitSFX;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(!AS)AS = GetComponent<AudioSource>();
+        Debug.Log("SettingAS");
+        AS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

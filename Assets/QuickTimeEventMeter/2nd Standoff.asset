@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
   speed: 0.5
   min_Max_For_SafeZone: {x: 0.5, y: 0.9}
+  Character: Sander Nickle
+  Dialogue: That was my brother! You will pay for this!

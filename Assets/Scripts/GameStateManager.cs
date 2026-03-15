@@ -16,6 +16,10 @@ public class GameStateManager : MonoBehaviour
         QuickTimeEventMeter.OnSuccessfulHit -= OnSuccess;
         QuickTimeEventMeter.OnFailedHit -= OnDeath;
     }
+    void Start()
+    {
+        //deathScreen = GameObject.FindGameObjectWithTag("DeathUI");
+    }
     void OnSuccess()
     {
         //Trigger cutscene
@@ -25,7 +29,7 @@ public class GameStateManager : MonoBehaviour
 
     void OnDeath()
     {
-        //deathScreen.SetActive(true);
+        deathScreen.SetActive(true);
         Invoke("ReadyToResumeCooldown",0.5f);
     }
     void ReadyToResumeCooldown()
@@ -41,6 +45,6 @@ public class GameStateManager : MonoBehaviour
     }
     void RestartGame()
     {
-        SceneManager.LoadScene("Shootout");
+        SceneManager.LoadScene(0);
     }
 }
