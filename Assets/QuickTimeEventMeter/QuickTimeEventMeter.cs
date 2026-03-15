@@ -13,7 +13,7 @@ public class QuickTimeEventMeter : MonoBehaviour
 
     Slider eventMeter;
     [SerializeField] Material eventMeterGraphicMaterial;
-    [SerializeField] Image eventMeterGraphic;
+    [SerializeField] GameObject eventMeterGraphic;
     [SerializeField] Image eventMeterPointer;
     bool isEventHappening = false;
     public List<QuickTimeEventObject> eventSequenceOrder;
@@ -41,7 +41,7 @@ public class QuickTimeEventMeter : MonoBehaviour
     {
         eventMeter.value = 0;
 
-        eventMeterGraphic.enabled = true;
+        eventMeterGraphic.SetActive(true);
         eventMeterPointer.enabled = true;
         SetupEventMeterGraphic();
         isEventHappening = true;
@@ -69,7 +69,7 @@ if(Keyboard.current.tabKey.isPressed) //DEBUG
         if(Keyboard.current.spaceKey.isPressed)
         {
             isEventHappening = false;
-            eventMeterGraphic.enabled = false;
+            eventMeterGraphic.SetActive(false);
             eventMeterPointer.enabled = false;
             //Calculate where quicktime event meter is
             if(eventMeter.value>= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.x && eventMeter.value <= eventSequenceOrder[eventSequenceCount].min_Max_For_SafeZone.y)

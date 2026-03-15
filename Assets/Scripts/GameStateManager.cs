@@ -25,7 +25,7 @@ public class GameStateManager : MonoBehaviour
 
     void OnDeath()
     {
-        //eathScreen.SetActive(true);
+        //deathScreen.SetActive(true);
         Invoke("ReadyToResumeCooldown",0.5f);
     }
     void ReadyToResumeCooldown()
