@@ -19,6 +19,7 @@ public class QuickTimeEventMeter : MonoBehaviour
     [SerializeField] Material eventMeterGraphicMaterial;
     [SerializeField] GameObject eventMeterGraphic;
     [SerializeField] Image eventMeterPointer;
+    [SerializeField] Image spacebarPrompt;
     bool isEventHappening = false;
     public List<QuickTimeEventObject> eventSequenceOrder;
     public int eventSequenceCount = 0;
@@ -62,6 +63,7 @@ public class QuickTimeEventMeter : MonoBehaviour
 
             eventMeterGraphic.SetActive(true);
             eventMeterPointer.enabled = true;
+            spacebarPrompt.enabled = true;
             SetupEventMeterGraphic();
             isEventHappening = true;
         }
@@ -87,6 +89,7 @@ public class QuickTimeEventMeter : MonoBehaviour
             isEventHappening = false;
             eventMeterGraphic.SetActive(false);
             eventMeterPointer.enabled = false;
+            spacebarPrompt.enabled = false;
 
             //Calculate where quicktime event meter is
             if(CheckIfPlayerHitWithinSafeZone())
@@ -123,10 +126,11 @@ public class QuickTimeEventMeter : MonoBehaviour
         isEventHappening = false;
         eventMeterGraphic.SetActive(false);
         eventMeterPointer.enabled = false;
+        spacebarPrompt.enabled = false;
 
         if(finalInSequenceReached)
         {
-            PlayerHitRedZone();
+            PlayerHitSafeZone();
         }
         else
         {

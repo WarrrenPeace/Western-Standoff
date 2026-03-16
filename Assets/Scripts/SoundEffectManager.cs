@@ -44,11 +44,11 @@ public class SoundEffectManager : MonoBehaviour
     }
     public void OnSuccessfulHitSFX()
     {
-        AS.PlayOneShot(RevolverShoot);
+        AS.PlayOneShot(RevolverShoot,0.4f);
     }
     public void OnFailedHitSFX()
     {
-        AS.PlayOneShot(RevolverShoot,0.1f);
+        AS.PlayOneShot(RevolverShoot,0.2f);
         AS.PlayOneShot(RevolverSpin);
     }
     

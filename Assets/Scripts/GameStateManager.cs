@@ -88,7 +88,7 @@ public class GameStateManager : MonoBehaviour
     void RestartGame()
     {
         isReadyToRetry = false;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     void StartNextStandoff()
     {
