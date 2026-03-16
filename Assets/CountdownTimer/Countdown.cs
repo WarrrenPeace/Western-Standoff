@@ -70,7 +70,7 @@ public class Countdown : MonoBehaviour
     void RestartClock()
     {
         isFinishedCounting = false;
-        timeRemaining = 4;
+        timeRemaining = 3;
 
         IsLastSecond = false;
     }

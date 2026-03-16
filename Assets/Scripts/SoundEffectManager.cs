@@ -7,6 +7,7 @@ public class SoundEffectManager : MonoBehaviour
     [SerializeField] AudioClip RevolverHolster;
     [SerializeField] AudioClip RevolverShoot;
     [SerializeField] AudioClip RevolverSpin;
+    [SerializeField] AudioClip DialogueVoice;
     void Awake()
     {
         if(!instance) 
@@ -50,6 +51,11 @@ public class SoundEffectManager : MonoBehaviour
     {
         AS.PlayOneShot(RevolverShoot,0.2f);
         AS.PlayOneShot(RevolverSpin);
+    }
+    public void OnOpenDialogue()
+    {
+        AS.PlayOneShot(DialogueVoice);
+
     }
     
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10th Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
   speed: 0.3
-  min_Max_For_SafeZone: {x: 0.725, y: 0.75}
+  min_Max_For_SafeZone: {x: 0.725, y: 0.78}
   Character: Texas Red
   Dialogue: ...
   Description: (Just a glance and time slows)

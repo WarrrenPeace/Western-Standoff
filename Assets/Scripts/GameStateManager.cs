@@ -49,6 +49,7 @@ public class GameStateManager : MonoBehaviour
         //Trigger cutscene
         dialogueScreen.gameObject.SetActive(true);
         dialogueScreen.FillDialogue(QuickTimeEventMeter.instance.eventSequenceOrder[QuickTimeEventMeter.instance.eventSequenceCount]);
+        SoundEffectManager.instance.OnOpenDialogue();
         
         //Change background for final round
         if(QuickTimeEventMeter.instance.finalInSequenceReached) {OnFinalStandoff.Invoke();}
