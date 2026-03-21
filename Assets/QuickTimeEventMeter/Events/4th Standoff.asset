@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8778225755ab03b4e82574e43cc372e4, type: 3}
   m_Name: 4th Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
-  speed: 0.5
-  min_Max_For_SafeZone: {x: 0.3, y: 0.7}
+  speed: 0.7
+  min_Max_For_SafeZone: {x: 0.4, y: 0.65}
   Character: Cassie Cassette
-  Dialogue: '"HEY put ur hands  up to the sky"'
+  Dialogue: '"STOP RIGHT THERE"'
   Description: 

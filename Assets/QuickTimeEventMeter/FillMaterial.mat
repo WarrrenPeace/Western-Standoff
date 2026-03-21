@@ -62,8 +62,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxValue: 0.95
-    - _MinValue: 0.25
+    - _MaxValue: 0.475
+    - _MinValue: 0.45
     - _minValue: 0.385
     m_Colors:
     - _FailColor: {r: 0.7764706, g: 0.24821399, b: 0.22352938, a: 1}

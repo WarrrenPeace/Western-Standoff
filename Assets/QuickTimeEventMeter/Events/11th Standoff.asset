@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8778225755ab03b4e82574e43cc372e4, type: 3}
   m_Name: 11th Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
-  speed: 0.8
-  min_Max_For_SafeZone: {x: 0.6, y: 0.7}
+  speed: 0.84
+  min_Max_For_SafeZone: {x: 0.734, y: 0.912}
   Character: Sheriff
-  Dialogue: Alright villian. You've done enough here. My iron will be yer last
+  Dialogue: '"Alright villian. You''ve done enough here. My iron will be yer last"'
+  Description: 

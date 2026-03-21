@@ -11,11 +11,13 @@ public class BackgroundListener : MonoBehaviour
     {
         QuickTimeEventMeter.OnFailedHit += FadeToBlack;
         GameStateManager.OnFinalStandoff += SetToMirror;
+        GameStateManager.OnRetryCurrentEvent += Reset;
     }
     void OnDisable()
     {
         QuickTimeEventMeter.OnFailedHit -= FadeToBlack;
         GameStateManager.OnFinalStandoff -= SetToMirror;
+        GameStateManager.OnRetryCurrentEvent -= Reset;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,5 +34,9 @@ public class BackgroundListener : MonoBehaviour
     void SetToMirror()
     {
         IM.sprite =theMirror;
+    }
+    void Reset()
+    {
+        AM.SetTrigger("Reset");
     }
 }

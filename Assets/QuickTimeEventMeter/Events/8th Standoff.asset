@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8778225755ab03b4e82574e43cc372e4, type: 3}
-  m_Name: 5th Standoff
+  m_Name: 8th Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
-  speed: 0.725
-  min_Max_For_SafeZone: {x: 0.25, y: 0.35}
-  Character: Romeo Cassette
-  Dialogue: '"Cassie... You will pay for this."'
-  Description: Ive paid enough
+  speed: 0.7
+  min_Max_For_SafeZone: {x: 0.3, y: 0.45}
+  Character: Brush Howard
+  Dialogue: '"Hey someone call the Sheriff"'
+  Description: They trusted you

@@ -15,5 +15,5 @@ MonoBehaviour:
   speed: 1.5
   min_Max_For_SafeZone: {x: 0, y: 0.3}
   Character: Maria Daniels Cassette
-  Dialogue: AHHHHHGGG!"
+  Dialogue: '"AHHHHHGGG!"'
   Description: Sneak attack from behind

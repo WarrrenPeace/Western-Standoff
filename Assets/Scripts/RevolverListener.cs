@@ -8,13 +8,14 @@ public class RevolverListener : MonoBehaviour
         Countdown.CountDownAlmostOver += ReadyGun;
         QuickTimeEventMeter.OnSuccessfulHit += FireGun;
         QuickTimeEventMeter.OnFailedHit += HideGun;
-        
+        GameStateManager.OnRetryCurrentEvent += Reset;
     }
     void OnDisable()
     {
         Countdown.CountDownAlmostOver -= ReadyGun;
         QuickTimeEventMeter.OnSuccessfulHit -= FireGun;
         QuickTimeEventMeter.OnFailedHit -= HideGun;
+        GameStateManager.OnRetryCurrentEvent -= Reset;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -39,5 +40,9 @@ public class RevolverListener : MonoBehaviour
     void HideGun()
     {
         AM.SetTrigger("Hide");
+    }
+    void Reset()
+    {
+        AM.SetTrigger("Reset");
     }
 }

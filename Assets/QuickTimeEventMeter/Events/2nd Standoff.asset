@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8778225755ab03b4e82574e43cc372e4, type: 3}
   m_Name: 2nd Standoff
   m_EditorClassIdentifier: Assembly-CSharp::QuickTimeEventObject
-  speed: 0.45
-  min_Max_For_SafeZone: {x: 0.3, y: 0.9}
+  speed: 0.65
+  min_Max_For_SafeZone: {x: 0.4, y: 0.8}
   Character: Sander Nickle
   Dialogue: '"You just killed my brother!"'
   Description: 

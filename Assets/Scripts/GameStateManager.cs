@@ -7,6 +7,7 @@ public class GameStateManager : MonoBehaviour
 {
     public static event Action OnStartNextStandoff; //Call after dialogue box to reset enemy and start countdown
     public static event Action OnFinalStandoff; 
+    public static event Action OnRetryCurrentEvent; 
     [SerializeField] DeathMenu deathScreen;
     [SerializeField] DialogueManager dialogueScreen;
     [SerializeField] GameObject creditsScreen;
@@ -77,16 +78,32 @@ public class GameStateManager : MonoBehaviour
     }
     void Update()
     {
-        if(Keyboard.current.spaceKey.isPressed && isReadyToRetry)
+        if((Keyboard.current.spaceKey.isPressed || Mouse.current.leftButton.isPressed) && isReadyToRetry)
         {
-            RestartGame();
+            if(PlayerPrefs.GetInt("HardcoreMode") == 0) //If hardcore mode is off then retry current event, else restart game
+            {ResetCurrentEvent();}
+            else
+            {RestartGame();} 
+            
         }
-        else if(Keyboard.current.spaceKey.isPressed && isReadyToContinue)
+        else if((Keyboard.current.spaceKey.isPressed || Mouse.current.leftButton.isPressed) && isReadyToContinue)
         {
             StartNextStandoff();
         }
+
+        if(Keyboard.current.escapeKey.isPressed)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
-    void RestartGame()
+    void ResetCurrentEvent() //Normal option
+    {
+        isReadyToRetry = false;
+        OnRetryCurrentEvent.Invoke();
+        deathScreen.gameObject.SetActive(false);
+        StartNextStandoff();
+    }
+    void RestartGame() //Hardcore mode option
     {
         isReadyToRetry = false;
         SceneManager.LoadScene(1);

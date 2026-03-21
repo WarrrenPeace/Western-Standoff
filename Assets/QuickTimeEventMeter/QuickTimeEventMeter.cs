@@ -84,7 +84,7 @@ public class QuickTimeEventMeter : MonoBehaviour
     }
     void CheckPlayerInput()
     {
-        if(Keyboard.current.spaceKey.isPressed)
+        if(Keyboard.current.spaceKey.isPressed || Mouse.current.leftButton.isPressed)
         {
             isEventHappening = false;
             eventMeterGraphic.SetActive(false);
